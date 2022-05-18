@@ -6,117 +6,117 @@
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "customer_id",
-      "exprId" : 8
+      "exprId" : 32
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "customer_id",
-      "exprId" : 8
+      "exprId" : 32
     }
   }, {
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "first_name",
-      "exprId" : 9
+      "exprId" : 33
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "first_name",
-      "exprId" : 9
+      "exprId" : 33
     }
   }, {
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "last_name",
-      "exprId" : 10
+      "exprId" : 34
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "last_name",
-      "exprId" : 10
+      "exprId" : 34
     }
   }, {
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "phone",
-      "exprId" : 11
+      "exprId" : 35
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "phone",
-      "exprId" : 11
+      "exprId" : 35
     }
   }, {
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "email",
-      "exprId" : 12
+      "exprId" : 36
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "email",
-      "exprId" : 12
+      "exprId" : 36
     }
   }, {
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "country_code",
-      "exprId" : 13
+      "exprId" : 37
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "country_code",
-      "exprId" : 13
+      "exprId" : 37
     }
   }, {
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "account_open_date",
-      "exprId" : 14
+      "exprId" : 38
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "account_open_date",
-      "exprId" : 14
+      "exprId" : 38
     }
   }, {
     "sources" : [ {
       "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
       "name" : "account_flags",
-      "exprId" : 15
+      "exprId" : 39
     } ],
     "destination" : {
       "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
       "name" : "account_flags",
-      "exprId" : 15
+      "exprId" : 39
     }
   } ],
   "inputs" : {
     "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba" : {
       "columns" : [ {
         "name" : "customer_id",
-        "exprId" : 8
+        "exprId" : 32
       }, {
         "name" : "first_name",
-        "exprId" : 9
+        "exprId" : 33
       }, {
         "name" : "last_name",
-        "exprId" : 10
+        "exprId" : 34
       }, {
         "name" : "phone",
-        "exprId" : 11
+        "exprId" : 35
       }, {
         "name" : "email",
-        "exprId" : 12
+        "exprId" : 36
       }, {
         "name" : "country_code",
-        "exprId" : 13
+        "exprId" : 37
       }, {
         "name" : "account_open_date",
-        "exprId" : 14
+        "exprId" : 38
       }, {
         "name" : "account_flags",
-        "exprId" : 15
+        "exprId" : 39
       } ]
     }
   },
@@ -124,28 +124,28 @@
     "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu" : {
       "columns" : [ {
         "name" : "customer_id",
-        "exprId" : 8
+        "exprId" : 32
       }, {
         "name" : "first_name",
-        "exprId" : 9
+        "exprId" : 33
       }, {
         "name" : "last_name",
-        "exprId" : 10
+        "exprId" : 34
       }, {
         "name" : "phone",
-        "exprId" : 11
+        "exprId" : 35
       }, {
         "name" : "email",
-        "exprId" : 12
+        "exprId" : 36
       }, {
         "name" : "country_code",
-        "exprId" : 13
+        "exprId" : 37
       }, {
         "name" : "account_open_date",
-        "exprId" : 14
+        "exprId" : 38
       }, {
         "name" : "account_flags",
-        "exprId" : 15
+        "exprId" : 39
       } ]
     }
   }
