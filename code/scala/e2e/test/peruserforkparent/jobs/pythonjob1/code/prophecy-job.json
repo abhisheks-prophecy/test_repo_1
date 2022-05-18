@@ -1,0 +1,61 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "953",
+    "name" : "pythonjob1",
+    "schedule" : "0 0,30 * ? * * *",
+    "enabled" : true,
+    "defaultClusterSize" : "small",
+    "availableClusterSizes" : [ "small" ],
+    "alerting" : {
+      "emails" : "abhisheks@simpledatalabs.com",
+      "onStart" : true,
+      "onSuccess" : true,
+      "onFailure" : false
+    },
+    "processDefaultSettings" : {
+      "type" : "Inherited",
+      "retries" : 1,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      }
+    }
+  },
+  "processes" : {
+    "Ljbubh0D9e0fns47nVk1R" : {
+      "id" : "Ljbubh0D9e0fns47nVk1R",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "pythonPipeline1",
+        "slug" : "pythonPipeline1",
+        "x" : 100,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "out"
+        } ]
+      },
+      "settings" : {
+        "type" : "Inherited",
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        }
+      },
+      "properties" : {
+        "pipelineId" : "4995/pipelines/pythonPipeline1",
+        "configurations" : [ ]
+      }
+    }
+  },
+  "connections" : [ ]
+}

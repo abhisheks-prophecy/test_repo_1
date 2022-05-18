@@ -15,7 +15,26 @@ pipelines:
       outputs: []
     dependencies: {}
 datasets: {}
-jobs: {}
+jobs:
+  jobs/pythonjob1:
+    name: pythonjob1
+    description: ''
+    fabricUID: 953
+    scheduler:
+      Databricks: {}
+    jobSize: small
+    scheduleCron: 0 0,30 * ? * * *
+    timeout: null
+    alerting:
+      emails: abhisheks@simpledatalabs.com
+      onStart: true
+      onSuccess: true
+      onFailure: false
+    pipelines:
+    - 4995/pipelines/pythonPipeline1
+    enabled: true
+    createdAt: '2022-05-18 15:15:36'
+    author: abhisheks+test@simpledatalabs.com
 libraries: []
 subgraphs: {}
 dependencies: []
