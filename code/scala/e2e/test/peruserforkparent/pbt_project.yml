@@ -1,11 +1,22 @@
 name: GIT_PER_USER_FORK
 description: ''
 version: '1.0'
-author: null
-pipelines: {}
+author: ''
+pipelines:
+  pipelines/pythonPipeline1:
+    name: pythonPipeline1
+    description: pythonPipeline1
+    author: abhisheks+test@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-05-18 14:43:53'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
 datasets: {}
 jobs: {}
 libraries: []
 subgraphs: {}
-dependencies: '[]'
+dependencies: []
 template: '[]'

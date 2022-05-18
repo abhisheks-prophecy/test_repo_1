@@ -1,0 +1,152 @@
+{
+  "id" : "qCq8MmaYDnKdFTC8xdtHU$$0K1K5mlHOHhG5qI6I9dTk",
+  "name" : "qCq8MmaYDnKdFTC8xdtHU$$0K1K5mlHOHhG5qI6I9dTk",
+  "component" : "Reformat",
+  "transformations" : [ {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "customer_id",
+      "exprId" : 8
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "customer_id",
+      "exprId" : 8
+    }
+  }, {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "first_name",
+      "exprId" : 9
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "first_name",
+      "exprId" : 9
+    }
+  }, {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "last_name",
+      "exprId" : 10
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "last_name",
+      "exprId" : 10
+    }
+  }, {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "phone",
+      "exprId" : 11
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "phone",
+      "exprId" : 11
+    }
+  }, {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "email",
+      "exprId" : 12
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "email",
+      "exprId" : 12
+    }
+  }, {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "country_code",
+      "exprId" : 13
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "country_code",
+      "exprId" : 13
+    }
+  }, {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "account_open_date",
+      "exprId" : 14
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "account_open_date",
+      "exprId" : 14
+    }
+  }, {
+    "sources" : [ {
+      "port" : "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba",
+      "name" : "account_flags",
+      "exprId" : 15
+    } ],
+    "destination" : {
+      "port" : "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu",
+      "name" : "account_flags",
+      "exprId" : 15
+    }
+  } ],
+  "inputs" : {
+    "xPXnfTSbJZx9lLRykekaZ$$8MrpHdi3PnqgRvcuxJUba" : {
+      "columns" : [ {
+        "name" : "customer_id",
+        "exprId" : 8
+      }, {
+        "name" : "first_name",
+        "exprId" : 9
+      }, {
+        "name" : "last_name",
+        "exprId" : 10
+      }, {
+        "name" : "phone",
+        "exprId" : 11
+      }, {
+        "name" : "email",
+        "exprId" : 12
+      }, {
+        "name" : "country_code",
+        "exprId" : 13
+      }, {
+        "name" : "account_open_date",
+        "exprId" : 14
+      }, {
+        "name" : "account_flags",
+        "exprId" : 15
+      } ]
+    }
+  },
+  "outputs" : {
+    "Tysqv4I38Cuyn1uv_Ha9m$$FS1Ty2TLgUGBRtOT1QjSu" : {
+      "columns" : [ {
+        "name" : "customer_id",
+        "exprId" : 8
+      }, {
+        "name" : "first_name",
+        "exprId" : 9
+      }, {
+        "name" : "last_name",
+        "exprId" : 10
+      }, {
+        "name" : "phone",
+        "exprId" : 11
+      }, {
+        "name" : "email",
+        "exprId" : 12
+      }, {
+        "name" : "country_code",
+        "exprId" : 13
+      }, {
+        "name" : "account_open_date",
+        "exprId" : 14
+      }, {
+        "name" : "account_flags",
+        "exprId" : 15
+      } ]
+    }
+  }
+}
