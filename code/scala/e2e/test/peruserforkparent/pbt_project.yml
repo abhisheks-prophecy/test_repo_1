@@ -1,6 +1,6 @@
 name: GIT_PER_USER_FORK
 description: ''
-version: '1.0'
+version: '1.2'
 author: ''
 pipelines:
   pipelines/pythonPipeline1:
@@ -10,6 +10,17 @@ pipelines:
     mode: batch
     language: python
     createdAt: '2022-05-18 14:43:53'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+  pipelines/scalaPipeline:
+    name: scalaPipeline
+    description: scalaPipeline
+    author: abhisheks+test@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-05-19 04:28:42'
     datasets:
       inputs: []
       outputs: []
