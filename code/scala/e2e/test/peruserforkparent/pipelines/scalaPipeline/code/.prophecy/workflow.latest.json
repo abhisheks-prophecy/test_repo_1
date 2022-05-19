@@ -50,6 +50,12 @@
     "sourcePort" : "nQmME90KCRRZ79zuunfaN$$_spW6Q5KZSEZAnjNC2Pqa",
     "target" : "xWoGhedhCeh1LJSetgtWX$$ee7B4xDNZWkt-fjOWMvbj",
     "targetPort" : "jDK7trUIVmFE0LDQNZD1I$$zl5UuMyLErSlW1r7SNf2I"
+  }, {
+    "id" : "O2a8ipjhkGc94NLQr4NH2",
+    "source" : "xWoGhedhCeh1LJSetgtWX$$ee7B4xDNZWkt-fjOWMvbj",
+    "sourcePort" : "4iCatCyv-ZUD7CW0rKcfM$$3PovhThA2UD8JGX4WinE1",
+    "target" : "V2rFNlLisuFh6mdlSpXGF$$QrPS6GZGe-ClbmDZX0b6N",
+    "targetPort" : "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv"
   } ],
   "processes" : {
     "xWoGhedhCeh1LJSetgtWX$$ee7B4xDNZWkt-fjOWMvbj" : {
@@ -58,8 +64,8 @@
       "metadata" : {
         "label" : "Reformat_1",
         "slug" : "Reformat_1",
-        "x" : 732.5,
-        "y" : 117,
+        "x" : 726.5,
+        "y" : 102,
         "language" : "scala",
         "phase" : 0,
         "cache" : false,
@@ -160,6 +166,83 @@
       },
       "properties" : {
         "datasetId" : "4860/datasets/csv_input1"
+      }
+    },
+    "V2rFNlLisuFh6mdlSpXGF$$QrPS6GZGe-ClbmDZX0b6N" : {
+      "id" : "V2rFNlLisuFh6mdlSpXGF$$QrPS6GZGe-ClbmDZX0b6N",
+      "component" : "OrderBy",
+      "metadata" : {
+        "label" : "OrderBy_1",
+        "slug" : "OrderBy_1",
+        "x" : 966.25,
+        "y" : 113,
+        "language" : "scala",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "zG8lC14gJILOV01E7x_0i$$hWddjFwJYUYyWBNna3JdQ",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##customer_id", "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##first_name", "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##last_name", "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##phone", "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##email", "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##country_code", "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##account_open_date", "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv##account_flags" ],
+        "orders" : [ {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "customer_id"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "first_name"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "last_name"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "phone"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "email"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "country_code"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "account_open_date"
+          },
+          "sortType" : "asc"
+        }, {
+          "expression" : {
+            "format" : "sql",
+            "expression" : "account_flags"
+          },
+          "sortType" : "asc"
+        } ]
       }
     }
   },
