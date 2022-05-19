@@ -14,6 +14,17 @@ pipelines:
       inputs: []
       outputs: []
     dependencies: {}
+  pipelines/scalaPipeline:
+    name: scalaPipeline
+    description: scalaPipeline
+    author: abhisheks+test@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-05-19 04:28:42'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
 datasets: {}
 jobs:
   jobs/pythonjob1:
