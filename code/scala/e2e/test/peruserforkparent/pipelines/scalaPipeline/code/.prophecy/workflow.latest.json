@@ -64,8 +64,8 @@
       "metadata" : {
         "label" : "Reformat_1",
         "slug" : "Reformat_1",
-        "x" : 726.5,
-        "y" : 102,
+        "x" : 415.5,
+        "y" : 68,
         "language" : "scala",
         "phase" : 0,
         "cache" : false,
@@ -149,8 +149,8 @@
       "metadata" : {
         "label" : "Source_0",
         "slug" : "Source_0",
-        "x" : 363,
-        "y" : 111,
+        "x" : 214,
+        "y" : 57,
         "language" : "scala",
         "phase" : 0,
         "cache" : false,
@@ -174,8 +174,8 @@
       "metadata" : {
         "label" : "OrderBy_1",
         "slug" : "OrderBy_1",
-        "x" : 966.25,
-        "y" : 113,
+        "x" : 734.25,
+        "y" : 314,
         "language" : "scala",
         "phase" : 0,
         "cache" : false,
