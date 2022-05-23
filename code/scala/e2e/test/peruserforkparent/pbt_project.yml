@@ -4,17 +4,6 @@ version: '1.2'
 author: ''
 language: scala
 pipelines:
-  pipelines/pythonPipeline1:
-    name: pythonPipeline1
-    description: pythonPipeline1
-    author: abhisheks+test@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-05-18 14:43:53'
-    datasets:
-      inputs: []
-      outputs: []
-    dependencies: {}
   pipelines/scalaPipeline:
     name: scalaPipeline
     description: scalaPipeline
@@ -23,9 +12,36 @@ pipelines:
     language: scala
     createdAt: '2022-05-19 04:28:42'
     datasets:
-      inputs: []
+      inputs:
+      - 4860/datasets/csv_input1
       outputs: []
-    dependencies: {}
+    dependencies:
+      project/4860:
+        name: project/4860
+        projectUID: 4860
+        projectName: THE_FINALSCHEDULEDPROJECT
+        version: THE_FINALSCHEDULEDPROJECT/2.9
+        author: null
+        createdAt: '2022-05-23 06:13:58'
+  pipelines/pythonPipeline1:
+    name: pythonPipeline1
+    description: pythonPipeline1s sfderter erter
+    author: abhisheks+test@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-05-18 14:43:53'
+    datasets:
+      inputs:
+      - 4860/datasets/csv_input1
+      outputs: []
+    dependencies:
+      project/4860:
+        name: project/4860
+        projectUID: 4860
+        projectName: THE_FINALSCHEDULEDPROJECT
+        version: THE_FINALSCHEDULEDPROJECT/2.9
+        author: null
+        createdAt: '2022-05-23 08:38:16'
 datasets: {}
 jobs:
   jobs/pythonjob1:

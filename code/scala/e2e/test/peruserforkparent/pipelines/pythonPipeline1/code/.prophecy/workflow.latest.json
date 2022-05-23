@@ -32,6 +32,10 @@
           "type" : "record",
           "fields" : [ ]
         },
+        "tryebs" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
         "captain_livy" : {
           "type" : "record",
           "fields" : [ ]

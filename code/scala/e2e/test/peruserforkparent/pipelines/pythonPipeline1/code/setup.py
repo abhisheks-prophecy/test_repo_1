@@ -7,7 +7,7 @@ setup(
     description='pythonPipeline1',
     install_requires=[
         'pyhocon==0.3.59',
-        'prophecy-libs==0.1.3'
+        'prophecy-libs==0.1.6'
     ],
     entry_points={
         'console_scripts': [

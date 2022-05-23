@@ -4,7 +4,7 @@
     "PipelineComponent" : {
       "id" : "4995/pipelines/pythonPipeline1",
       "nodeName" : "pythonPipeline1",
-      "path" : "dbfs:/FileStore/prophecy/artifacts/prophecy/test/pipelines/GIT_PER_USER_FORK/1.0/4995/pythonPipeline1-1.0-py3-none-any.whl",
+      "path" : "dbfs:/FileStore/prophecy/artifacts/prophecy/test/pipelines/GIT_PER_USER_FORK/1.2/4995/pythonPipeline1-1.0-py3-none-any.whl",
       "language" : "python"
     }
   } ],
@@ -41,7 +41,7 @@
           "parameters" : [ "-C", "fabricName=dev" ]
         },
         "libraries" : [ {
-          "whl" : "dbfs:/FileStore/prophecy/artifacts/prophecy/test/pipelines/GIT_PER_USER_FORK/1.0/4995/pythonPipeline1-1.0-py3-none-any.whl"
+          "whl" : "dbfs:/FileStore/prophecy/artifacts/prophecy/test/pipelines/GIT_PER_USER_FORK/1.2/4995/pythonPipeline1-1.0-py3-none-any.whl"
         } ],
         "email_notifications" : { },
         "max_retries" : 1
