@@ -51,6 +51,10 @@
         "captain_livy" : {
           "type" : "record",
           "fields" : [ ]
+        },
+        "temp_fabric" : {
+          "type" : "record",
+          "fields" : [ ]
         }
       }
     },
@@ -74,8 +78,8 @@
       "metadata" : {
         "label" : "Source_0",
         "slug" : "Source_0",
-        "x" : -66,
-        "y" : 217,
+        "x" : -460,
+        "y" : 67,
         "language" : "python",
         "phase" : 0,
         "cache" : false,

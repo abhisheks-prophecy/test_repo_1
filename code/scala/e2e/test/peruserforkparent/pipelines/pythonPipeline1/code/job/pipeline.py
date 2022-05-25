@@ -13,6 +13,7 @@ def main():
     Utils.initializeFromArgs(Utils.parseArgs())
     spark = SparkSession.builder\
                 .config("spark.default.parallelism", "4")\
+                .config("spark.sql.legacy.allowUntypedScalaUDF", "true")\
                 .enableHiveSupport()\
                 .appName("Prophecy Pipeline")\
                 .getOrCreate()
