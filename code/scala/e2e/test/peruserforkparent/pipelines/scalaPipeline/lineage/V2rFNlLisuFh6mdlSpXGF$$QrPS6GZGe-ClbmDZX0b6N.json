@@ -1,0 +1,64 @@
+{
+  "id" : "V2rFNlLisuFh6mdlSpXGF$$QrPS6GZGe-ClbmDZX0b6N",
+  "name" : "V2rFNlLisuFh6mdlSpXGF$$QrPS6GZGe-ClbmDZX0b6N",
+  "component" : "OrderBy",
+  "transformations" : [ ],
+  "inputs" : {
+    "efHdThx30Q7P6I-ZoF9qx$$n3KN5oS59-reXbcmWDHxv" : {
+      "columns" : [ {
+        "name" : "customer_id",
+        "exprId" : 1629
+      }, {
+        "name" : "first_name",
+        "exprId" : 1630
+      }, {
+        "name" : "last_name",
+        "exprId" : 1631
+      }, {
+        "name" : "phone",
+        "exprId" : 1632
+      }, {
+        "name" : "email",
+        "exprId" : 1633
+      }, {
+        "name" : "country_code",
+        "exprId" : 1634
+      }, {
+        "name" : "account_open_date",
+        "exprId" : 1635
+      }, {
+        "name" : "account_flags",
+        "exprId" : 1636
+      } ]
+    }
+  },
+  "outputs" : {
+    "zG8lC14gJILOV01E7x_0i$$hWddjFwJYUYyWBNna3JdQ" : {
+      "columns" : [ {
+        "name" : "customer_id",
+        "exprId" : 1629
+      }, {
+        "name" : "first_name",
+        "exprId" : 1630
+      }, {
+        "name" : "last_name",
+        "exprId" : 1631
+      }, {
+        "name" : "phone",
+        "exprId" : 1632
+      }, {
+        "name" : "email",
+        "exprId" : 1633
+      }, {
+        "name" : "country_code",
+        "exprId" : 1634
+      }, {
+        "name" : "account_open_date",
+        "exprId" : 1635
+      }, {
+        "name" : "account_flags",
+        "exprId" : 1636
+      } ]
+    }
+  }
+}

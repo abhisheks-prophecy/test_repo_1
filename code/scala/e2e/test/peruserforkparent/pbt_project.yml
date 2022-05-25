@@ -1,12 +1,31 @@
 name: GIT_PER_USER_FORK
 description: ''
-version: '1.0'
+version: '1.2'
 author: ''
 language: scala
 pipelines:
+  pipelines/scalaPipeline:
+    name: scalaPipeline
+    description: scalaPipeline
+    author: abhisheks+test@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-05-19 04:28:42'
+    datasets:
+      inputs:
+      - 4860/datasets/csv_input1
+      outputs: []
+    dependencies:
+      project/4860:
+        name: project/4860
+        projectUID: 4860
+        projectName: THE_FINALSCHEDULEDPROJECT
+        version: THE_FINALSCHEDULEDPROJECT/2.9
+        author: null
+        createdAt: '2022-05-23 06:13:58'
   pipelines/pythonPipeline1:
     name: pythonPipeline1
-    description: pythonPipeline1
+    description: pythonPipeline1s sfderter erter
     author: abhisheks+test@simpledatalabs.com
     mode: batch
     language: python
