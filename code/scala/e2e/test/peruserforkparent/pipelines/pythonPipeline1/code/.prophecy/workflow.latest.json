@@ -20,15 +20,31 @@
         "fields" : [ ]
       },
       "fabrics" : {
+        "dev-fabric.EBS.One.SSD" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "dev123-Databricks.Cluster_New" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
         "dev_Second_fabric" : {
           "type" : "record",
           "fields" : [ ]
         },
-        "new1fabricwithlongname" : {
+        "dev1-Prophecy.Managed_cluster" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "dev123-ebs.HDD" : {
           "type" : "record",
           "fields" : [ ]
         },
         "dev" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "tryebs" : {
           "type" : "record",
           "fields" : [ ]
         },

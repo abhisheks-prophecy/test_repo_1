@@ -2,6 +2,7 @@ name: GIT_PER_USER_FORK
 description: ''
 version: '1.0'
 author: ''
+language: scala
 pipelines:
   pipelines/pythonPipeline1:
     name: pythonPipeline1
@@ -11,9 +12,17 @@ pipelines:
     language: python
     createdAt: '2022-05-18 14:43:53'
     datasets:
-      inputs: []
+      inputs:
+      - 4860/datasets/csv_input1
       outputs: []
-    dependencies: {}
+    dependencies:
+      project/4860:
+        name: project/4860
+        projectUID: 4860
+        projectName: THE_FINALSCHEDULEDPROJECT
+        version: THE_FINALSCHEDULEDPROJECT/3.2
+        author: null
+        createdAt: '2022-05-24 09:10:25'
 datasets: {}
 jobs:
   jobs/pythonjob1:

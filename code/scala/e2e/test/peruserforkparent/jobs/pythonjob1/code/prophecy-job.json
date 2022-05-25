@@ -31,8 +31,8 @@
       "metadata" : {
         "label" : "pythonPipeline1",
         "slug" : "pythonPipeline1",
-        "x" : 100,
-        "y" : 100
+        "x" : 3,
+        "y" : 68
       },
       "ports" : {
         "inputs" : [ {
