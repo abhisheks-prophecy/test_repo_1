@@ -47,3 +47,7 @@ dasd
 *** Release notes for version: 1.7 ***
 
 1.7
+
+*** Release notes for version: 1.8 ***
+
+1.8
