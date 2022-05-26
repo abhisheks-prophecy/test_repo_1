@@ -191,8 +191,8 @@
       "metadata" : {
         "label" : "Filter_1",
         "slug" : "Filter_1",
-        "x" : 878.9999999999999,
-        "y" : -17.00000000000003,
+        "x" : 820.9999999999999,
+        "y" : 108.99999999999996,
         "language" : "python",
         "phase" : 0,
         "cache" : false,
@@ -224,7 +224,7 @@
         "label" : "OrderBy_2",
         "slug" : "OrderBy_2",
         "x" : 1084.0000000000002,
-        "y" : -49.74999999999994,
+        "y" : -11.74999999999994,
         "language" : "python",
         "phase" : 0,
         "cache" : false,
@@ -242,7 +242,7 @@
         "selectedInputFields" : [ ]
       },
       "properties" : {
-        "columnsSelector" : [ "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##customer_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_status", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_category", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_date", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##amount" ],
+        "columnsSelector" : [ "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_date", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##customer_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##amount", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_category", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_status" ],
         "orders" : [ {
           "expression" : {
             "format" : "sql",
