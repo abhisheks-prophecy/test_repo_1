@@ -1,0 +1,31 @@
+name: py_git_per_user_fork
+description: ''
+version: 0.0.1
+author: abhisheks+uitesting@simpledatalabs.com
+language: python
+pipelines:
+  pipelines/py_gitPeruserfork:
+    name: py_gitPeruserfork
+    description: py_gitPeruserfork
+    author: abhisheks+uitesting@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-05-26 16:09:08'
+    datasets:
+      inputs:
+      - 4518/datasets/orders
+      outputs: []
+    dependencies:
+      project/4518:
+        name: project/4518
+        projectUID: 4518
+        projectName: HelloWorld
+        version: HelloWorld/1.0
+        author: null
+        createdAt: '2022-05-26 16:09:44'
+datasets: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
+template: '[]'
