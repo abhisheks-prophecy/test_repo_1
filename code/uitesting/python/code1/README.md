@@ -31,3 +31,7 @@ asdsd
 *** Release notes for version: 12asdasd ***
 
 asd
+
+*** Release notes for version: 1.6 ***
+
+1.6
