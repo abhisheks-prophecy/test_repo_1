@@ -43,3 +43,7 @@ some
 *** Release notes for version: 2asd ***
 
 dasd
+
+*** Release notes for version: 1.7 ***
+
+1.7
