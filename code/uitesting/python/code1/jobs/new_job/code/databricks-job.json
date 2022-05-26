@@ -1,0 +1,80 @@
+{
+  "fabricId" : "862",
+  "components" : [ {
+    "PipelineComponent" : {
+      "id" : "4532/pipelines/py_gitPeruserfork",
+      "nodeName" : "py_gitPeruserfork",
+      "path" : "dbfs:/FileStore/prophecy/artifacts/prophecy/uitesting/pipelines/py_git_per_user_fork/34/4532/py_gitPeruserfork-1.0-py3-none-any.whl",
+      "language" : "python"
+    }
+  } ],
+  "request" : {
+    "CreateNewJobRequest" : {
+      "format" : "MULTI_TASK",
+      "name" : "new_job",
+      "job_clusters" : [ {
+        "job_cluster_key" : "small-109548807",
+        "new_cluster" : {
+          "spark_version" : "10.4 LTS (includes Apache Spark 3.2.1, Scala 2.12)",
+          "node_type_id" : "i3.xlarge",
+          "num_workers" : 1,
+          "driver_node_type_id" : "i3.xlarge",
+          "enable_elastic_disk" : false
+        }
+      }, {
+        "job_cluster_key" : "medium--1078030475",
+        "new_cluster" : {
+          "spark_version" : "10.4 LTS (includes Apache Spark 3.2.1, Scala 2.12)",
+          "node_type_id" : "i3.xlarge",
+          "num_workers" : 2,
+          "driver_node_type_id" : "i3.xlarge",
+          "enable_elastic_disk" : false
+        }
+      }, {
+        "job_cluster_key" : "large-102742843",
+        "new_cluster" : {
+          "spark_version" : "10.4 LTS (includes Apache Spark 3.2.1, Scala 2.12)",
+          "node_type_id" : "i3.xlarge",
+          "num_workers" : 3,
+          "driver_node_type_id" : "i3.xlarge",
+          "enable_elastic_disk" : false
+        }
+      } ],
+      "email_notifications" : {
+        "on_start" : [ "abhisheks@simpledatalabs.com" ],
+        "on_success" : [ "abhisheks@simpledatalabs.com" ]
+      },
+      "tasks" : [ {
+        "task_key" : "py_gitPeruserfork",
+        "new_cluster" : {
+          "spark_version" : "10.4 LTS (includes Apache Spark 3.2.1, Scala 2.12)",
+          "node_type_id" : "i3.xlarge",
+          "num_workers" : 1,
+          "driver_node_type_id" : "i3.xlarge",
+          "enable_elastic_disk" : false
+        },
+        "python_wheel_task" : {
+          "package_name" : "py_gitPeruserfork",
+          "entry_point" : "main",
+          "parameters" : [ "-C", "fabricName=dev" ]
+        },
+        "libraries" : [ {
+          "maven" : {
+            "coordinates" : "io.prophecy:prophecy-libs_2.12:3.7.13-3.2.0",
+            "repo" : "https://prophecyio2.jfrog.io/artifactory/sbt-repo"
+          }
+        }, {
+          "whl" : "dbfs:/FileStore/prophecy/artifacts/prophecy/uitesting/pipelines/py_git_per_user_fork/34/4532/py_gitPeruserfork-1.0-py3-none-any.whl"
+        } ],
+        "email_notifications" : { },
+        "max_retries" : 1
+      } ],
+      "max_concurrent_runs" : 1,
+      "schedule" : {
+        "quartz_cron_expression" : "0 0,30,59 0 ? * * *",
+        "timezone_id" : "GMT",
+        "pause_status" : "UNPAUSED"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "862",
+    "name" : "new_job",
+    "schedule" : "0 0,30,59 0 ? * * *",
+    "enabled" : true,
+    "defaultClusterSize" : "small",
+    "availableClusterSizes" : [ "small", "medium", "large" ],
+    "alerting" : {
+      "emails" : "abhisheks@simpledatalabs.com",
+      "onStart" : true,
+      "onSuccess" : true,
+      "onFailure" : false
+    },
+    "processDefaultSettings" : {
+      "type" : "Inherited",
+      "retries" : 1,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      }
+    }
+  },
+  "processes" : {
+    "mxwFil1DTZtV25nwPGttb" : {
+      "id" : "mxwFil1DTZtV25nwPGttb",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "py_gitPeruserfork",
+        "slug" : "py_gitPeruserfork",
+        "x" : 100,
+        "y" : 100
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "out"
+        } ]
+      },
+      "settings" : {
+        "type" : "Inherited",
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        }
+      },
+      "properties" : {
+        "pipelineId" : "4532/pipelines/py_gitPeruserfork",
+        "configurations" : [ ]
+      }
+    }
+  },
+  "connections" : [ ]
+}

@@ -24,7 +24,26 @@ pipelines:
         author: null
         createdAt: '2022-05-26 16:09:44'
 datasets: {}
-jobs: {}
+jobs:
+  jobs/new_job:
+    name: new_job
+    description: ''
+    fabricUID: 862
+    scheduler:
+      Databricks: {}
+    jobSize: small
+    scheduleCron: 0 0,30,59 0 ? * * *
+    timeout: null
+    alerting:
+      emails: abhisheks@simpledatalabs.com
+      onStart: true
+      onSuccess: true
+      onFailure: false
+    pipelines:
+    - 4532/pipelines/py_gitPeruserfork
+    enabled: true
+    createdAt: '2022-05-26 16:56:03'
+    author: abhisheks+uitesting@simpledatalabs.com
 libraries: []
 subgraphs: {}
 dependencies: '[]'
