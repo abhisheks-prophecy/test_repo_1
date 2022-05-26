@@ -39,3 +39,7 @@ asd
 *** Release notes for version: 123qweq ***
 
 some
+
+*** Release notes for version: 2asd ***
+
+dasd
