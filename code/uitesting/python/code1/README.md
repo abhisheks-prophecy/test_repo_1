@@ -55,3 +55,7 @@ dasd
 *** Release notes for version: 1.9 ***
 
 1.9
+
+*** Release notes for version: 2.0 ***
+
+2.0
