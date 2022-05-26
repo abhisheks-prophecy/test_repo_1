@@ -68,8 +68,8 @@
       "metadata" : {
         "label" : "Reformat_1",
         "slug" : "Reformat_1",
-        "x" : 693,
-        "y" : -17,
+        "x" : 669,
+        "y" : 0,
         "language" : "python",
         "phase" : 0,
         "cache" : false,
@@ -187,8 +187,8 @@
       "metadata" : {
         "label" : "Filter_1",
         "slug" : "Filter_1",
-        "x" : 959.9999999999999,
-        "y" : 137,
+        "x" : 891.9999999999999,
+        "y" : -156,
         "language" : "python",
         "phase" : 0,
         "cache" : false,
