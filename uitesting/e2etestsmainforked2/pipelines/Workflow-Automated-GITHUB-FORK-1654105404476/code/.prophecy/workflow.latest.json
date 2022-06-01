@@ -48,6 +48,36 @@
     "targetPort" : "tPUUv39nxFdtHmSiT9i87$$hb8F23-y7glLQrmKfJtpU"
   } ],
   "processes" : {
+    "rNfMIJedijvA2dDVHcIYd$$UvOp3eZOj6bP1hAHf_ZxV" : {
+      "id" : "rNfMIJedijvA2dDVHcIYd$$UvOp3eZOj6bP1hAHf_ZxV",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "KyMtRfpSqn2jso2lyEfEG$$hkcaKKLt9xbJv7HVb8mPE",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "0PH39yeYa9YaD23w3SIhw$$oQMinAYbo_IO8NVOSbZIa",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "Rgs-yUtW6Mhn8ujbGyPcM$$jCydHXXSkecwt0IBOlc3W" : {
       "id" : "Rgs-yUtW6Mhn8ujbGyPcM$$jCydHXXSkecwt0IBOlc3W",
       "component" : "Limit",
@@ -93,6 +123,31 @@
         "inputs" : [ ],
         "outputs" : [ {
           "id" : "SxhVn8rZBo0WVi1sH_2kO$$g6H601_hEtuKQ-PpM7_Qv",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "4675/datasets/customer_data_json"
+      }
+    },
+    "4sAzYw_XpKSx10lO5lu8k$$T2Ig2J7J9Qsr-LefoM482" : {
+      "id" : "4sAzYw_XpKSx10lO5lu8k$$T2Ig2J7J9Qsr-LefoM482",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "jNqQee-nF8mMNNkuACIgi$$bi3LGksq7ja2z799LLD_y",
           "slug" : "out"
         } ],
         "selectedInputFields" : [ ]
