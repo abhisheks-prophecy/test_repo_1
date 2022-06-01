@@ -100,6 +100,31 @@
       "properties" : {
         "limit" : "10"
       }
+    },
+    "ynveCw42dPM2DOEunUACu$$WbJNvj2NBegqIOPAn5L3k" : {
+      "id" : "ynveCw42dPM2DOEunUACu$$WbJNvj2NBegqIOPAn5L3k",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "SZkpVmRjGlKkD4fk4xX3y$$smzl8A6grggCB_YZFNOkT",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "4684/datasets/customer_data_json"
+      }
     }
   },
   "ports" : {
