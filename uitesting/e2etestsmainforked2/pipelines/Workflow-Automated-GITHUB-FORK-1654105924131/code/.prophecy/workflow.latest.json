@@ -1,0 +1,110 @@
+{
+  "metainfo" : {
+    "id" : "1",
+    "language" : "python",
+    "fabricId" : "299",
+    "frontEndLanguage" : "sql",
+    "mode" : "batch",
+    "interimMode" : "Full",
+    "udfs" : {
+      "language" : "python",
+      "udfs" : [ ]
+    },
+    "udafs" : {
+      "language" : "python",
+      "code" : ""
+    },
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      },
+      "fabrics" : {
+        "dev" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "trynew" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "abcdef" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      }
+    },
+    "sparkConf" : [ ],
+    "hadoopConf" : [ ],
+    "codeMode" : "sparse",
+    "buildSystem" : "maven",
+    "externalDependencies" : [ ]
+  },
+  "connections" : [ {
+    "id" : "JlgsiieVI94NL8wbwEx2Y",
+    "source" : "i8xQ-bdPqrHtBArz0QXiw$$aeXlb4KXFtJI38nC74WT_",
+    "sourcePort" : "zf6rixfQOS3WzoIKnXKs6$$8-XdDBIE9E0DZ_GqOQ_AL",
+    "target" : "rvYdgik5O5MVhSOOmlF02$$4SyCNJ7S_6WaAB6y4wANa",
+    "targetPort" : "wUiPEWVZzNc56FM7z8WUC$$kKQw6nSN2S7gNT4NEbliY"
+  } ],
+  "processes" : {
+    "i8xQ-bdPqrHtBArz0QXiw$$aeXlb4KXFtJI38nC74WT_" : {
+      "id" : "i8xQ-bdPqrHtBArz0QXiw$$aeXlb4KXFtJI38nC74WT_",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_0",
+        "slug" : "Source_0",
+        "x" : 140,
+        "y" : 160,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "zf6rixfQOS3WzoIKnXKs6$$8-XdDBIE9E0DZ_GqOQ_AL",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "4677/datasets/customer_data_json"
+      }
+    },
+    "rvYdgik5O5MVhSOOmlF02$$4SyCNJ7S_6WaAB6y4wANa" : {
+      "id" : "rvYdgik5O5MVhSOOmlF02$$4SyCNJ7S_6WaAB6y4wANa",
+      "component" : "Limit",
+      "metadata" : {
+        "label" : "Limit_1",
+        "slug" : "Limit_1",
+        "x" : 280,
+        "y" : 160,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "wUiPEWVZzNc56FM7z8WUC$$kKQw6nSN2S7gNT4NEbliY",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "z1VXSZ9C6yuVLFvOtgWqV$$s7_cUOUmMf4dzjc5fmXsg",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "limit" : "10"
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ ],
+    "outputs" : [ ],
+    "selectedInputFields" : [ ]
+  }
+}
