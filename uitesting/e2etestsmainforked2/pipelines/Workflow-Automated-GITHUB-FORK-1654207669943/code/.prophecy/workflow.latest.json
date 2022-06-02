@@ -48,6 +48,31 @@
     "targetPort" : "H70OEf9HXM8Mf4snUWM-u$$fytBmCg4wd9fHsM182nDe"
   } ],
   "processes" : {
+    "0vvzKyKSuE4njZlpKZqio$$mXvte9DXXnTQeT4_a_g3k" : {
+      "id" : "0vvzKyKSuE4njZlpKZqio$$mXvte9DXXnTQeT4_a_g3k",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "eYs9m6ujf-exQnITYn-RJ$$HEVqJ_Gk1vFKsXGK4QFTJ",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "4749/datasets/customer_data_parquet"
+      }
+    },
     "3wVePRVVdrd8manLw2MkB$$yLOrv8coKgM6CgehnFL8G" : {
       "id" : "3wVePRVVdrd8manLw2MkB$$yLOrv8coKgM6CgehnFL8G",
       "component" : "Limit",
@@ -99,6 +124,36 @@
       },
       "properties" : {
         "datasetId" : "4749/datasets/customer_data_json"
+      }
+    },
+    "eOrK7MlTpDlnFFOC9dLNl$$kwPjAnyE7uiwKyR5eaf8y" : {
+      "id" : "eOrK7MlTpDlnFFOC9dLNl$$kwPjAnyE7uiwKyR5eaf8y",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "C15jX5jlKgUMrDzmjXj5t$$I0SaXAjh-3HSG1YJCfnpM",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "srAXKf3_26KTyfTo2MWf4$$vxaQ3irHBU880nyDJ5sQg",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     }
   },
