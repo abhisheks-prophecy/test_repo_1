@@ -69,6 +69,31 @@
         "datasetId" : "5676/datasets/customer_data_json"
       }
     },
+    "ZKr3w74xOD3ALgQC39SjL$$NJIrZs6Z1oYeARbUKckN4" : {
+      "id" : "ZKr3w74xOD3ALgQC39SjL$$NJIrZs6Z1oYeARbUKckN4",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "ZjuRL7FYaoRYRzeZhBodr$$u1Jp80_FtjgFNO0Yj0NOH",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "5676/datasets/customer_data_json"
+      }
+    },
     "VWDZP8-MMpPpZkfr74t52$$FH8iaPdDsk59gWlVyoxdq" : {
       "id" : "VWDZP8-MMpPpZkfr74t52$$FH8iaPdDsk59gWlVyoxdq",
       "component" : "Limit",
@@ -95,6 +120,36 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "pKgvv51uqagQ4YFDDVlzd$$G-e6CEp-E8EgysWMBLeMs" : {
+      "id" : "pKgvv51uqagQ4YFDDVlzd$$G-e6CEp-E8EgysWMBLeMs",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "HdzlqHyFOC8k0wfgEk6pK$$Ozbpls1JbUh2Nx_bGQsRD",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "qxjzjlhQCLoRfYDVqJZYu$$VvdCxNawBnUlgmU9EM18I",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     }
   },
