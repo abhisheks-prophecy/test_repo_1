@@ -26,6 +26,7 @@ pipelines:
     datasets:
       inputs:
       - 4743/datasets/customer_data_json
+      - 4743/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1654106145697:
@@ -125,6 +126,18 @@ datasets:
         description: ''
         author: abhisheks+e2etests@simpledatalabs.com
         createdAt: '2022-06-01 17:40:18'
+  datasets/customer_data_parquet:
+    name: customer_data_parquet
+    description: ''
+    author: abhisheks+e2etests@simpledatalabs.com
+    createdAt: '2022-06-02 22:03:12'
+    physicalDatasets:
+      dev:
+        fabricId: 299
+        datasetType: File
+        description: ''
+        author: abhisheks+e2etests@simpledatalabs.com
+        createdAt: '2022-06-02 22:03:12'
 jobs: {}
 libraries: []
 subgraphs: {}
