@@ -72,6 +72,36 @@
         "limit" : "10"
       }
     },
+    "IJ81mXdq_Quu8GNp1QCDL$$tVMgJDSI-_H0-A2vKAS7M" : {
+      "id" : "IJ81mXdq_Quu8GNp1QCDL$$tVMgJDSI-_H0-A2vKAS7M",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "RW-jFJl9_nwloM1FmJA2d$$4ZywxRsz7ploSzZ-9ApZj",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "Dh9WMvD9clCVoBzyckT2J$$3-9zF8YfvotKLgchdmwfY",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "0eXgs-Cs7t_b_Ea91nziC$$HcBbvlbJwl0CXQnuY4aHb" : {
       "id" : "0eXgs-Cs7t_b_Ea91nziC$$HcBbvlbJwl0CXQnuY4aHb",
       "component" : "Source",
@@ -89,6 +119,31 @@
         "inputs" : [ ],
         "outputs" : [ {
           "id" : "XZDWAJpFunV3c1PUQpk4o$$FTDPcI8xwWJ-QQ7HdkWYx",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "5675/datasets/customer_data_json"
+      }
+    },
+    "a346osFzlRCFyDxO-sCga$$Ufwvr7Ua90uCcpcvWCNih" : {
+      "id" : "a346osFzlRCFyDxO-sCga$$Ufwvr7Ua90uCcpcvWCNih",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "wH8wDOWGEGIEOJ-cqRkSt$$WD3UR7x5hMlKnYnGbqaN8",
           "slug" : "out"
         } ],
         "selectedInputFields" : [ ]
