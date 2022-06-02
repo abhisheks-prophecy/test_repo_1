@@ -72,6 +72,31 @@
         "limit" : "10"
       }
     },
+    "VwzArShEgQjXUisVmobIC$$6w992yrMl8dKRz7UUwWVK" : {
+      "id" : "VwzArShEgQjXUisVmobIC$$6w992yrMl8dKRz7UUwWVK",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "Sw9StGjPduQ-Q9YavaloC$$SJ8p2JvGFGDdSD7eOFzGF",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "3228/datasets/customer_data_parquet"
+      }
+    },
     "0eXgs-Cs7t_b_Ea91nziC$$HcBbvlbJwl0CXQnuY4aHb" : {
       "id" : "0eXgs-Cs7t_b_Ea91nziC$$HcBbvlbJwl0CXQnuY4aHb",
       "component" : "Source",
@@ -95,6 +120,36 @@
       },
       "properties" : {
         "datasetId" : "5675/datasets/customer_data_json"
+      }
+    },
+    "K8EDFcmGfcGWuAsP_5rgH$$tCS6xdoiAuWGGAAz-5aqL" : {
+      "id" : "K8EDFcmGfcGWuAsP_5rgH$$tCS6xdoiAuWGGAAz-5aqL",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "zf0OQerVIuXIeuFI2-KzI$$8dtL9_V-es1lHHn48SjPD",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "2wF_sCY1fhoY7V8D9EiYJ$$9o3PiqE2DullkE1PskhO-",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     }
   },
