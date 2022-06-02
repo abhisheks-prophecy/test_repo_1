@@ -56,6 +56,18 @@ pipelines:
         version: qa_local_git_project/3.8
         author: null
         createdAt: '2022-06-02 05:57:44'
+  pipelines/Workflow-Automated-GITHUB-FORK-1654149692563:
+    name: Workflow-Automated-GITHUB-FORK-1654149692563
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-02 06:01:50'
+    datasets:
+      inputs:
+      - 5675/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
