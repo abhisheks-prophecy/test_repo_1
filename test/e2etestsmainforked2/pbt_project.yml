@@ -34,8 +34,16 @@ pipelines:
     datasets:
       inputs:
       - 5676/datasets/customer_data_json
+      - 3228/datasets/customer_data_parquet
       outputs: []
-    dependencies: {}
+    dependencies:
+      project/3228:
+        name: project/3228
+        projectUID: 3228
+        projectName: qa_local_git_project
+        version: qa_local_git_project/3.8
+        author: null
+        createdAt: '2022-06-02 06:08:48'
   pipelines/Workflow-Automated-GITHUB-FORK-1654149342307:
     name: Workflow-Automated-GITHUB-FORK-1654149342307
     description: automation workflow
