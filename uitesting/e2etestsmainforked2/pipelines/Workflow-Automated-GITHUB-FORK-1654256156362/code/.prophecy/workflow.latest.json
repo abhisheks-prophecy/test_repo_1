@@ -96,6 +96,61 @@
       "properties" : {
         "limit" : "10"
       }
+    },
+    "YrdsumLV5JIAgM4YueMmD$$l9b7jDyMMV1pcmy3gFibX" : {
+      "id" : "YrdsumLV5JIAgM4YueMmD$$l9b7jDyMMV1pcmy3gFibX",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "-Ox6YpbKUrIacP68PZumM$$zvgNjK7e2AFSs6Pd1f7vZ",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "4842/datasets/customer_data_json"
+      }
+    },
+    "iMKIbmjad-3EjE0LX74IC$$ewe32O-yaibbJ0_XM4mUK" : {
+      "id" : "iMKIbmjad-3EjE0LX74IC$$ewe32O-yaibbJ0_XM4mUK",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "l_ehR7qAO_klXu7-LOyyE$$chyFPuhHAGYdwoQvMvpSZ",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "uwTBoZx9WDDTtp7xU3aoN$$k9takoAgBxGhO_nMlKIKG",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
     }
   },
   "ports" : {
