@@ -77,6 +77,36 @@
         "datasetId" : "5439/datasets/customer_data_json"
       }
     },
+    "LWXCWPAxNMHf38qEPUHzv$$7F1C_4QOuG5VJ1iqsh4Xh" : {
+      "id" : "LWXCWPAxNMHf38qEPUHzv$$7F1C_4QOuG5VJ1iqsh4Xh",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "mnD5H79c2qiWt-eZZm2CY$$ps1mjXCgzoMj9NrMYpmWQ",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "D0G4IVpyX9hAKrmPXPkip$$zrG8G42b6bXLYkll7D6jo",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "bBvtzYSwFFWfWoFiAZOo_$$e3T546HcQJQ6DNkqDYxFj" : {
       "id" : "bBvtzYSwFFWfWoFiAZOo_$$e3T546HcQJQ6DNkqDYxFj",
       "component" : "Limit",
@@ -103,6 +133,31 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "COJY0xDQx3QQwpHUkSC53$$MPawq8YH8GwSDLfiCbG8Y" : {
+      "id" : "COJY0xDQx3QQwpHUkSC53$$MPawq8YH8GwSDLfiCbG8Y",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "uAhVBnlPTOhgWAUwhf06I$$XdyuSX1T6L0bxMCvDk9y2",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "5439/datasets/customer_data_json"
       }
     }
   },
