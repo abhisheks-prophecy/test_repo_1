@@ -52,6 +52,36 @@
     "targetPort" : "ypQLfN-eqlMKPyMJz_tA8$$VIv4xSspnYbsP-XBlEy_w"
   } ],
   "processes" : {
+    "qfdqDOC33HyzD8WeJGE-S$$xKnbSHThv4AA1AY8QP4tf" : {
+      "id" : "qfdqDOC33HyzD8WeJGE-S$$xKnbSHThv4AA1AY8QP4tf",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "JVMYcDFpj_TxhciYAwmUC$$7eLbblZkCRq3-ZB6L7PrZ",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "iTGi2bVnZX4RfwDbb2hmf$$uZ7FFivAn4PYq-GyAirJU",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "qX0RN-CPg0U69jPTHRMbz$$4GYwMRMVTy96jhwwuHwcR" : {
       "id" : "qX0RN-CPg0U69jPTHRMbz$$4GYwMRMVTy96jhwwuHwcR",
       "component" : "Source",
@@ -103,6 +133,31 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "mbM87C00w8BRb-1xf-Qms$$yJ5K9D59SyJLysuRq0icj" : {
+      "id" : "mbM87C00w8BRb-1xf-Qms$$yJ5K9D59SyJLysuRq0icj",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "WIACGiHg9NPbMT-P2SHpN$$Q_wEtKOCLZYs6Ny4M0uvW",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "5672/datasets/customer_data_json"
       }
     }
   },
