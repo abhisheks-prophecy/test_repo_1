@@ -52,6 +52,31 @@
     "targetPort" : "w4S6TUMeC4njNOTTkgpyT$$F4sSqgaNDakafFgv5d3H2"
   } ],
   "processes" : {
+    "oRJWOYk1UE4iQpYoPL3a-$$EC10CI3MhO3mHkxEiLcib" : {
+      "id" : "oRJWOYk1UE4iQpYoPL3a-$$EC10CI3MhO3mHkxEiLcib",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "4K2HBOElBcy8sKnJIGW-o$$velZfyTIv_Oj1tn5NThDl",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "datasetId" : "5901/datasets/customer_data_parquet"
+      }
+    },
     "g2KAd1rJRwX2FhKu7XT5p$$XzbL7DgcnWjv-5ZT2pUNY" : {
       "id" : "g2KAd1rJRwX2FhKu7XT5p$$XzbL7DgcnWjv-5ZT2pUNY",
       "component" : "Limit",
@@ -78,6 +103,36 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "WQgeKW4rw8qrnJ8Xzccas$$xz4c2LE5XhXjqs1-BgU3k" : {
+      "id" : "WQgeKW4rw8qrnJ8Xzccas$$xz4c2LE5XhXjqs1-BgU3k",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "2uJXEP0fK-GS18pUg9YkI$$3AHl-T-DGQXHBNAPgzQc0",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "Hq95Ln4T3AWXyuogCnq1Q$$cGdKnFhgAkjwiPcnZVTq9",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     },
     "wurMaJ8rWGwxgRCTo6RDC$$oHcucrewDpgjftPFLJSow" : {
