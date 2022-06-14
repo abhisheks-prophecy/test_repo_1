@@ -78,6 +78,32 @@
         "datasetId" : "6832/datasets/customer_data_json"
       }
     },
+    "Migu2J0eTKVnMheWzzvhH$$YvM9oJn2AFsxgHZ21tOW0" : {
+      "id" : "Migu2J0eTKVnMheWzzvhH$$YvM9oJn2AFsxgHZ21tOW0",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "IQzohoaTk7V75ZTmrWRpQ$$RfOwhu592_F8SpOazEfeP",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "6832/datasets/customer_data_parquet"
+      }
+    },
     "MJ3SBdbHPVYdRRtxMy30M$$LqRZu4DPbQrZE6EnqWzcP" : {
       "id" : "MJ3SBdbHPVYdRRtxMy30M$$LqRZu4DPbQrZE6EnqWzcP",
       "component" : "Limit",
@@ -105,6 +131,37 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "bO9AWgtKki4ut7RhwxKdS$$fGWpWECtqkaeBNGOJk88r" : {
+      "id" : "bO9AWgtKki4ut7RhwxKdS$$fGWpWECtqkaeBNGOJk88r",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "8A3OQ7XyZRDhdo7LqMtnL$$htk0HgTwHGJawt5nmUJ3d",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "lAk7xW1nw27zxAP4clHNw$$AhggPxTYcxPK5tWpIZJHi",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     }
   },
