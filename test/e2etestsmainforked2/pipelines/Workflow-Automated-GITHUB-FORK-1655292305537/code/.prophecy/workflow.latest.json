@@ -53,6 +53,33 @@
     "targetPort" : "MxT61NztBqQAlVlmZBG4o$$Yt__cbb61GhuKoZJNS4g3"
   } ],
   "processes" : {
+    "Z9HFvCWWVmSb2GchKEz5G$$wfSXHNmUFl7HI_-ObvxqW" : {
+      "id" : "Z9HFvCWWVmSb2GchKEz5G$$wfSXHNmUFl7HI_-ObvxqW",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "OQZLQ42-Ey9YtM_pXuUgx$$xULimnV6TPnqoinJ1n3yU",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7086/datasets/customer_data_json"
+      }
+    },
     "kEYB0NcCnfQxRQNZntNul$$Ua-fipBIoZ8f4ds-GVavY" : {
       "id" : "kEYB0NcCnfQxRQNZntNul$$Ua-fipBIoZ8f4ds-GVavY",
       "component" : "Source",
