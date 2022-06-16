@@ -7,6 +7,7 @@ from job.graph import *
 
 def pipeline(spark: SparkSession) -> None:
     df_Source_0 = Source_0(spark)
+    df_Source_1 = Source_1(spark)
     df_Limit_1 = Limit_1(spark, df_Source_0)
 
 def main():
