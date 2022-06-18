@@ -3,6 +3,7 @@ description: pl
 version: 0.0.1
 author: abhisheks+e2etests1@simpledatalabs.com
 language: python
+buildSystem: wheel
 pipelines:
   pipelines/Workflow-Automated-GITHUB-FORK-1654149692563:
     name: Workflow-Automated-GITHUB-FORK-1654149692563
@@ -73,19 +74,6 @@ pipelines:
       inputs:
       - 7089/datasets/customer_data_json
       - 7089/datasets/customer_data_parquet
-      outputs: []
-    dependencies: {}
-  pipelines/Workflow-Automated-GITHUB-FORK-1655257416220:
-    name: Workflow-Automated-GITHUB-FORK-1655257416220
-    description: automation workflow
-    author: abhisheks+e2etests1@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-15 01:44:02'
-    datasets:
-      inputs:
-      - 6916/datasets/customer_data_json
-      - 6916/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655282556763:
@@ -251,6 +239,31 @@ pipelines:
       - 7092/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655257416220:
+    name: Workflow-Automated-GITHUB-FORK-1655257416220
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-15 01:44:02'
+    datasets:
+      inputs:
+      - 6916/datasets/customer_data_json
+      - 6916/datasets/customer_data_parquet
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655518714909:
+    name: Workflow-Automated-GITHUB-FORK-1655518714909
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-18 02:18:56'
+    datasets:
+      inputs:
+      - 7276/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1654148504966:
     name: Workflow-Automated-GITHUB-FORK-1654148504966
     description: automation workflow
@@ -308,8 +321,8 @@ datasets:
         description: ''
         author: abhisheks+e2etests1@simpledatalabs.com
         createdAt: '2022-06-13 09:15:40'
+templates: {}
 jobs: {}
 libraries: []
 subgraphs: {}
 dependencies: '[]'
-template: '[]'
