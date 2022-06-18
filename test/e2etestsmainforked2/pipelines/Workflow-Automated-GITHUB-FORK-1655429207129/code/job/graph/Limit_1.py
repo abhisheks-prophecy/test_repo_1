@@ -4,5 +4,5 @@ from pyspark.sql.types import *
 from job.config.ConfigStore import *
 from job.udfs.UDFs import *
 
-def Source_1(spark: SparkSession) -> DataFrame:
-    return spark.read.format("parquet").load("dbfs:/Prophecy/qa_data/parquet/CustomersDatasetInput.parquet")
+def Limit_1(spark: SparkSession, in0: DataFrame) -> DataFrame:
+    return in0.limit(10)
