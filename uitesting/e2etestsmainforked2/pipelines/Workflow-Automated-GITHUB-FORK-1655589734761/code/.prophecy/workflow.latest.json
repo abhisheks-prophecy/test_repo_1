@@ -83,6 +83,65 @@
         "limit" : "10"
       }
     },
+    "vtfyHVQfKk5aW1aYyY-XT$$T9BocqUmiuAI_bR1hDvYZ" : {
+      "id" : "vtfyHVQfKk5aW1aYyY-XT$$T9BocqUmiuAI_bR1hDvYZ",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "wJozRTzmll3SJMMieYf3p$$sWkj0wHYtF2puuM8ywkfB",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "6347/datasets/customer_data_parquet"
+      }
+    },
+    "qf71AfTEsSD2JJV4ghQVQ$$Z5PbQYog4uNr6sI1V3HEt" : {
+      "id" : "qf71AfTEsSD2JJV4ghQVQ$$Z5PbQYog4uNr6sI1V3HEt",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "SPFs8mIlAcdly2nZtRvEi$$uTMZZ9xDTpyU0SKllVHzZ",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "mkAg6zPpHpGTU38HrxLEi$$iC-cW-TIWcAD851B9Xw5l",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "-yGL2Cj-guA2emqVGpsOh$$vA2QF1HdUeJPKpc67tv5Z" : {
       "id" : "-yGL2Cj-guA2emqVGpsOh$$vA2QF1HdUeJPKpc67tv5Z",
       "component" : "Source",
