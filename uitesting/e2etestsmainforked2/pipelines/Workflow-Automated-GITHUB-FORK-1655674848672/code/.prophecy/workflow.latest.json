@@ -53,6 +53,65 @@
     "targetPort" : "pwu7pd0YPp1uL65As2udt$$GlFICg-IKAklddD-C70kU"
   } ],
   "processes" : {
+    "axfhbc2Q0eVD7SRteRrUK$$iOLmPScZflzWVZG8n35BS" : {
+      "id" : "axfhbc2Q0eVD7SRteRrUK$$iOLmPScZflzWVZG8n35BS",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "l-lB1Xg8EKbquEXKCFabO$$Y8UZ2UlhDv55oiCi-6DQW",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "R0BPMlxOkeDhp5v9DQMpA$$lCF3ofV7aXE_YeRG6ErAC",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "qYLvpiP9KvN95j9ljnx-l$$i3mc7N2REjO5XgHVUd-8t" : {
+      "id" : "qYLvpiP9KvN95j9ljnx-l$$i3mc7N2REjO5XgHVUd-8t",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "SDqDPmRSpVCAXJftE0ATy$$Dfvf1vaTmJB0vQ-oPuRDS",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "6586/datasets/customer_data_json"
+      }
+    },
     "ynzf3gc9RRSHW1NZAqRZz$$_uxwtG1jbP3FjaigLVIgH" : {
       "id" : "ynzf3gc9RRSHW1NZAqRZz$$_uxwtG1jbP3FjaigLVIgH",
       "component" : "Source",
