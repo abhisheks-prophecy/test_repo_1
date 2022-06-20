@@ -89,6 +89,65 @@
         "limit" : "10"
       }
     },
+    "cCXreliyhMCeIGsFRKsh5$$O36uXsjF32uXjlsJSxzxO" : {
+      "id" : "cCXreliyhMCeIGsFRKsh5$$O36uXsjF32uXjlsJSxzxO",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "hFF_5d0tjnJ2RmpuudH2a$$UlCHjiID94faku-qKir3f",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "hTb7-LJ_oCa358Un_jfqF$$OM7Ies4jyStk5TB84Dzjs",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "hPzzPEPe5LEP_zg39IELW$$HUyjsLB4wYOlGja61_HY0" : {
+      "id" : "hPzzPEPe5LEP_zg39IELW$$HUyjsLB4wYOlGja61_HY0",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Source_1",
+        "slug" : "Source_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "etLd7s8_KecWq967nn8cm$$LBA_lelfidEVry1Nuxqsx",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7374/datasets/customer_data_json"
+      }
+    },
     "06-L_3GZQgOrI5Qy35HF8$$XZt1ii_WpT2r_FpN5w1Qr" : {
       "id" : "06-L_3GZQgOrI5Qy35HF8$$XZt1ii_WpT2r_FpN5w1Qr",
       "component" : "Source",
