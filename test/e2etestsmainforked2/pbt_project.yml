@@ -3,6 +3,7 @@ description: pl
 version: 0.0.1
 author: abhisheks+e2etests1@simpledatalabs.com
 language: python
+buildSystem: wheel
 pipelines:
   pipelines/Workflow-Automated-GITHUB-FORK-1654149692563:
     name: Workflow-Automated-GITHUB-FORK-1654149692563
@@ -193,26 +194,6 @@ pipelines:
       - 6756/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
-  pipelines/Workflow-Automated-GITHUB-FORK-1654149342307:
-    name: Workflow-Automated-GITHUB-FORK-1654149342307
-    description: automation workflow
-    author: abhisheks+e2etests1@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-02 05:55:59'
-    datasets:
-      inputs:
-      - 5673/datasets/customer_data_json
-      - 3228/datasets/customer_data_parquet
-      outputs: []
-    dependencies:
-      project/3228:
-        name: project/3228
-        projectUID: 3228
-        projectName: qa_local_git_project
-        version: qa_local_git_project/3.8
-        author: null
-        createdAt: '2022-06-02 05:57:44'
   pipelines/Workflow-Automated-GITHUB-FORK-1655292305537:
     name: Workflow-Automated-GITHUB-FORK-1655292305537
     description: automation workflow
@@ -283,6 +264,38 @@ pipelines:
       - 5672/datasets/customer_data_json
       outputs: []
     dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655832413648:
+    name: Workflow-Automated-GITHUB-FORK-1655832413648
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-21 17:27:15'
+    datasets:
+      inputs:
+      - 7464/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1654149342307:
+    name: Workflow-Automated-GITHUB-FORK-1654149342307
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-02 05:55:59'
+    datasets:
+      inputs:
+      - 5673/datasets/customer_data_json
+      - 3228/datasets/customer_data_parquet
+      outputs: []
+    dependencies:
+      project/3228:
+        name: project/3228
+        projectUID: 3228
+        projectName: qa_local_git_project
+        version: qa_local_git_project/3.8
+        author: null
+        createdAt: '2022-06-02 05:57:44'
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
@@ -308,8 +321,8 @@ datasets:
         description: ''
         author: abhisheks+e2etests1@simpledatalabs.com
         createdAt: '2022-06-13 09:15:40'
+templates: {}
 jobs: {}
 libraries: []
 subgraphs: {}
 dependencies: '[]'
-template: '[]'
