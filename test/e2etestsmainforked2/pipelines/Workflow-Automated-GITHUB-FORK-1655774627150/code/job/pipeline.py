@@ -6,6 +6,8 @@ from job.udfs.UDFs import *
 from job.graph import *
 
 def pipeline(spark: SparkSession) -> None:
+    df_Script_1 = Script_1(spark)
+    df_customer_data_parquet = customer_data_parquet(spark)
     df_customer_data_json = customer_data_json(spark)
     df_Limit_1 = Limit_1(spark, df_customer_data_json)
 
