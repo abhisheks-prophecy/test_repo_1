@@ -25,19 +25,6 @@ pipelines:
         version: qa_local_git_project/3.8
         author: null
         createdAt: '2022-06-02 06:03:39'
-  pipelines/Workflow-Automated-GITHUB-FORK-1655170585998:
-    name: Workflow-Automated-GITHUB-FORK-1655170585998
-    description: automation workflow
-    author: abhisheks+e2etests1@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-14 01:36:47'
-    datasets:
-      inputs:
-      - 6832/datasets/customer_data_json
-      - 6832/datasets/customer_data_parquet
-      outputs: []
-    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655344115152:
     name: Workflow-Automated-GITHUB-FORK-1655344115152
     description: automation workflow
@@ -63,6 +50,18 @@ pipelines:
       - 7222/datasets/customer_data_json
       outputs: []
     dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655688762616:
+    name: Workflow-Automated-GITHUB-FORK-1655688762616
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-20 01:33:05'
+    datasets:
+      inputs:
+      - 7374/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655292578515:
     name: Workflow-Automated-GITHUB-FORK-1655292578515
     description: automation workflow
@@ -74,19 +73,6 @@ pipelines:
       inputs:
       - 7089/datasets/customer_data_json
       - 7089/datasets/customer_data_parquet
-      outputs: []
-    dependencies: {}
-  pipelines/Workflow-Automated-GITHUB-FORK-1655257416220:
-    name: Workflow-Automated-GITHUB-FORK-1655257416220
-    description: automation workflow
-    author: abhisheks+e2etests1@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-15 01:44:02'
-    datasets:
-      inputs:
-      - 6916/datasets/customer_data_json
-      - 6916/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655282556763:
@@ -113,6 +99,18 @@ pipelines:
       inputs:
       - 6829/datasets/customer_data_json
       - 6829/datasets/customer_data_parquet
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655603541402:
+    name: Workflow-Automated-GITHUB-FORK-1655603541402
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-19 01:52:49'
+    datasets:
+      inputs:
+      - 7345/datasets/customer_data_json
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655111558059:
@@ -148,26 +146,19 @@ pipelines:
         version: qa_local_git_project/3.8
         author: null
         createdAt: '2022-06-02 06:12:39'
-  pipelines/Workflow-Automated-GITHUB-FORK-1654149997111:
-    name: Workflow-Automated-GITHUB-FORK-1654149997111
+  pipelines/Workflow-Automated-GITHUB-FORK-1655774627150:
+    name: Workflow-Automated-GITHUB-FORK-1655774627150
     description: automation workflow
     author: abhisheks+e2etests1@simpledatalabs.com
     mode: batch
     language: python
-    createdAt: '2022-06-02 06:07:03'
+    createdAt: '2022-06-21 01:24:15'
     datasets:
       inputs:
-      - 5676/datasets/customer_data_json
-      - 3228/datasets/customer_data_parquet
+      - 7420/datasets/customer_data_json
+      - 7420/datasets/customer_data_parquet
       outputs: []
-    dependencies:
-      project/3228:
-        name: project/3228
-        projectUID: 3228
-        projectName: qa_local_git_project
-        version: qa_local_git_project/3.8
-        author: null
-        createdAt: '2022-06-02 06:08:48'
+    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655889022017:
     name: Workflow-Automated-GITHUB-FORK-1655889022017
     description: automation workflow
@@ -206,26 +197,6 @@ pipelines:
       - 6756/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
-  pipelines/Workflow-Automated-GITHUB-FORK-1654149342307:
-    name: Workflow-Automated-GITHUB-FORK-1654149342307
-    description: automation workflow
-    author: abhisheks+e2etests1@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-02 05:55:59'
-    datasets:
-      inputs:
-      - 5673/datasets/customer_data_json
-      - 3228/datasets/customer_data_parquet
-      outputs: []
-    dependencies:
-      project/3228:
-        name: project/3228
-        projectUID: 3228
-        projectName: qa_local_git_project
-        version: qa_local_git_project/3.8
-        author: null
-        createdAt: '2022-06-02 05:57:44'
   pipelines/Workflow-Automated-GITHUB-FORK-1655292305537:
     name: Workflow-Automated-GITHUB-FORK-1655292305537
     description: automation workflow
@@ -236,6 +207,44 @@ pipelines:
     datasets:
       inputs:
       - 7086/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655832185621:
+    name: Workflow-Automated-GITHUB-FORK-1655832185621
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-21 17:23:29'
+    datasets:
+      inputs:
+      - 7461/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655170585998:
+    name: Workflow-Automated-GITHUB-FORK-1655170585998
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-14 01:36:47'
+    datasets:
+      inputs:
+      - 6832/datasets/customer_data_json
+      - 6832/datasets/customer_data_parquet
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655429818385:
+    name: Workflow-Automated-GITHUB-FORK-1655429818385
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-17 01:37:32'
+    datasets:
+      inputs:
+      - 7251/datasets/customer_data_json
+      - 7251/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655386355782:
@@ -264,6 +273,31 @@ pipelines:
       - 7092/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655257416220:
+    name: Workflow-Automated-GITHUB-FORK-1655257416220
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-15 01:44:02'
+    datasets:
+      inputs:
+      - 6916/datasets/customer_data_json
+      - 6916/datasets/customer_data_parquet
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655518714909:
+    name: Workflow-Automated-GITHUB-FORK-1655518714909
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-18 02:18:56'
+    datasets:
+      inputs:
+      - 7276/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1654148504966:
     name: Workflow-Automated-GITHUB-FORK-1654148504966
     description: automation workflow
@@ -284,6 +318,18 @@ pipelines:
         version: qa_local_git_project/3.8
         author: null
         createdAt: '2022-06-02 05:44:40'
+  pipelines/Workflow-Automated-GITHUB-FORK-1655555277962:
+    name: Workflow-Automated-GITHUB-FORK-1655555277962
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-18 12:28:22'
+    datasets:
+      inputs:
+      - 7318/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1654149170272:
     name: Workflow-Automated-GITHUB-FORK-1654149170272
     description: automation workflow
@@ -296,6 +342,70 @@ pipelines:
       - 5672/datasets/customer_data_json
       outputs: []
     dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1654149997111:
+    name: Workflow-Automated-GITHUB-FORK-1654149997111
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-02 06:07:03'
+    datasets:
+      inputs:
+      - 5676/datasets/customer_data_json
+      - 3228/datasets/customer_data_parquet
+      outputs: []
+    dependencies:
+      project/3228:
+        name: project/3228
+        projectUID: 3228
+        projectName: qa_local_git_project
+        version: qa_local_git_project/3.8
+        author: null
+        createdAt: '2022-06-02 06:08:48'
+  pipelines/Workflow-Automated-GITHUB-FORK-1655429207129:
+    name: Workflow-Automated-GITHUB-FORK-1655429207129
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-17 01:27:21'
+    datasets:
+      inputs:
+      - 7250/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655832413648:
+    name: Workflow-Automated-GITHUB-FORK-1655832413648
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-21 17:27:15'
+    datasets:
+      inputs:
+      - 7464/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1654149342307:
+    name: Workflow-Automated-GITHUB-FORK-1654149342307
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-02 05:55:59'
+    datasets:
+      inputs:
+      - 5673/datasets/customer_data_json
+      - 3228/datasets/customer_data_parquet
+      outputs: []
+    dependencies:
+      project/3228:
+        name: project/3228
+        projectUID: 3228
+        projectName: qa_local_git_project
+        version: qa_local_git_project/3.8
+        author: null
+        createdAt: '2022-06-02 05:57:44'
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
