@@ -3,6 +3,7 @@ description: ''
 version: 0.0.1
 author: abhisheks+e2etests@simpledatalabs.com
 language: python
+buildSystem: wheel
 pipelines:
   pipelines/Workflow-Automated-GITHUB-FORK-1654599094937:
     name: Workflow-Automated-GITHUB-FORK-1654599094937
@@ -15,19 +16,6 @@ pipelines:
       inputs:
       - 5163/datasets/customer_data_json
       - 5163/datasets/customer_data_parquet
-      outputs: []
-    dependencies: {}
-  pipelines/Workflow-Automated-GITHUB-FORK-1654899211140:
-    name: Workflow-Automated-GITHUB-FORK-1654899211140
-    description: automation workflow
-    author: abhisheks+e2etests@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-10 22:14:14'
-    datasets:
-      inputs:
-      - 5439/datasets/customer_data_json
-      - 5439/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1654105732601:
@@ -128,6 +116,31 @@ pipelines:
     datasets:
       inputs:
       - 5653/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655987347234:
+    name: Workflow-Automated-GITHUB-FORK-1655987347234
+    description: automation workflow
+    author: abhisheks+e2etests@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-23 12:29:28'
+    datasets:
+      inputs:
+      - 7119/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1654899211140:
+    name: Workflow-Automated-GITHUB-FORK-1654899211140
+    description: automation workflow
+    author: abhisheks+e2etests@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-10 22:14:14'
+    datasets:
+      inputs:
+      - 5439/datasets/customer_data_json
+      - 5439/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1654207669943:
@@ -241,8 +254,8 @@ datasets:
         description: ''
         author: abhisheks+e2etests@simpledatalabs.com
         createdAt: '2022-06-02 22:03:12'
+templates: {}
 jobs: {}
 libraries: []
 subgraphs: {}
 dependencies: '[]'
-template: '[]'
