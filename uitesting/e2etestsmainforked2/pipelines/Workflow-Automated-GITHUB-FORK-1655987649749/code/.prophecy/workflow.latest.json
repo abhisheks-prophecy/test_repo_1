@@ -59,6 +59,65 @@
     "targetPort" : "d1oSZsVewdx009vQ_ty19$$9J3LzaahsESmD9rFP1O99"
   } ],
   "processes" : {
+    "J0T0fs2tdXwq8R0u3vhkf$$KS44hxKN_F44pKrBC6FCw" : {
+      "id" : "J0T0fs2tdXwq8R0u3vhkf$$KS44hxKN_F44pKrBC6FCw",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "bSbV-HI3uDec7rmHN4BN-$$87lK1XveYi0Njwj4MXDFJ",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7125/datasets/customer_data_json"
+      }
+    },
+    "-v1u9Cz9vho5MQuW5ttHT$$MoTJNu7DmqHSxSObWnScd" : {
+      "id" : "-v1u9Cz9vho5MQuW5ttHT$$MoTJNu7DmqHSxSObWnScd",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "wrb0GjaGJhzHuO0IcluAP$$6upRjNjBv9mZ8ALmK-3IT",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "FtTtIhCh-IGvIbay7k9US$$MDkIf3juwbav55SmxHOyi",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "jS23OpVOAOlVW4KGvharO$$rKBxQIJ4R7a60chlrCBeT" : {
       "id" : "jS23OpVOAOlVW4KGvharO$$rKBxQIJ4R7a60chlrCBeT",
       "component" : "Source",
