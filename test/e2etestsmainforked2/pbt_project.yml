@@ -3,6 +3,7 @@ description: pl
 version: 0.0.1
 author: abhisheks+e2etests1@simpledatalabs.com
 language: python
+buildSystem: wheel
 pipelines:
   pipelines/Workflow-Automated-GITHUB-FORK-1654149692563:
     name: Workflow-Automated-GITHUB-FORK-1654149692563
@@ -213,18 +214,6 @@ pipelines:
         version: qa_local_git_project/3.8
         author: null
         createdAt: '2022-06-02 05:57:44'
-  pipelines/Workflow-Automated-GITHUB-FORK-1655292305537:
-    name: Workflow-Automated-GITHUB-FORK-1655292305537
-    description: automation workflow
-    author: abhisheks+e2etests1@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-15 11:25:27'
-    datasets:
-      inputs:
-      - 7086/datasets/customer_data_json
-      outputs: []
-    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1655386355782:
     name: Workflow-Automated-GITHUB-FORK-1655386355782
     description: automation workflow
@@ -283,6 +272,30 @@ pipelines:
       - 5672/datasets/customer_data_json
       outputs: []
     dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1655292305537:
+    name: Workflow-Automated-GITHUB-FORK-1655292305537
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-15 11:25:27'
+    datasets:
+      inputs:
+      - 7086/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1656179502094:
+    name: Workflow-Automated-GITHUB-FORK-1656179502094
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-25 17:52:01'
+    datasets:
+      inputs:
+      - 7892/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
@@ -308,8 +321,8 @@ datasets:
         description: ''
         author: abhisheks+e2etests1@simpledatalabs.com
         createdAt: '2022-06-13 09:15:40'
+templates: {}
 jobs: {}
 libraries: []
 subgraphs: {}
 dependencies: '[]'
-template: '[]'
