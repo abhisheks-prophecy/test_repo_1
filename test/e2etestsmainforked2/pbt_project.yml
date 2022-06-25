@@ -294,6 +294,7 @@ pipelines:
     datasets:
       inputs:
       - 7892/datasets/customer_data_json
+      - 7892/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
 datasets:
