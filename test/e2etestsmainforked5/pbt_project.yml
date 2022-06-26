@@ -15,6 +15,7 @@ pipelines:
     datasets:
       inputs:
       - 7984/datasets/customer_data_json
+      - 7984/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
 datasets:
@@ -30,6 +31,18 @@ datasets:
         description: ''
         author: abhisheks+e2etests1@simpledatalabs.com
         createdAt: '2022-06-26 17:58:23'
+  datasets/customer_data_parquet:
+    name: customer_data_parquet
+    description: ''
+    author: abhisheks+e2etests1@simpledatalabs.com
+    createdAt: '2022-06-26 18:01:08'
+    physicalDatasets:
+      dev:
+        fabricId: 674
+        datasetType: File
+        description: ''
+        author: abhisheks+e2etests1@simpledatalabs.com
+        createdAt: '2022-06-26 18:01:08'
 templates: {}
 jobs: {}
 libraries: []
