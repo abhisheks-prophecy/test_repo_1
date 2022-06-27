@@ -1,0 +1,23 @@
+version: 1
+dependencies:
+- name: mysql
+  type: workflow
+  enabled: true
+- name: spring
+  type: workflow
+  enabled: true
+- name: matplotlib
+  type: workflow
+  enabled: true
+- name: pandas
+  type: workflow
+  enabled: true
+- name: numpy
+  type: workflow
+  enabled: true
+- name: requests
+  type: workflow
+  enabled: true
+- name: torch
+  type: workflow
+  enabled: true

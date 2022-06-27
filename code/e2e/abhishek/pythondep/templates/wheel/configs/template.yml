@@ -1,0 +1,23 @@
+version: "1"
+pipeline:
+  path: /setup.py
+  content: |
+    from setuptools import setup, find_packages
+    
+    setup(
+      name='@{buildMetadata.pipelineMetadata.name}',
+      version='1.0',
+      packages=find_packages(include=('job*',)),
+      description='@{buildMetadata.pipelineMetadata.description}',
+      install_requires=[
+        @{dependencies.collect{case x:PyPiDependency ⇒ x}.map(x => s"'${x.`package`}'").map(x => s"$x,\n")}
+        'prophecy-libs==@{buildMetadata.prophecyLibsVersion}'
+      ],
+      entry_points={
+        'console_scripts': [
+          'main = job.pipeline:main',
+        ],
+      },
+      tests_require=['pytest', 'pytest-html','pytest-cov']
+    )
+
