@@ -1,0 +1,32 @@
+name: scala_git_fork
+description: ''
+version: 0.0.1
+author: abhisheks+uitesting@simpledatalabs.com
+language: scala
+buildSystem: maven
+pipelines:
+  pipelines/test1:
+    name: test1
+    description: test1
+    author: abhisheks+uitesting@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-06-27 11:26:03'
+    datasets:
+      inputs:
+      - 4521/datasets/csv_all_type
+      outputs: []
+    dependencies:
+      project/4521:
+        name: project/4521
+        projectUID: 4521
+        projectName: pythonProjectInternal
+        version: pythonProjectInternal/1.7
+        author: null
+        createdAt: '2022-06-27 11:27:21'
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: []
