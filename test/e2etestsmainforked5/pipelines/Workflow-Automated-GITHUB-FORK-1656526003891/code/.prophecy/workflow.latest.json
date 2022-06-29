@@ -63,6 +63,65 @@
     "targetPort" : "enaQsu33rgW58TbravKE1$$suK2307bmDZ-1IDMyJHBp"
   } ],
   "processes" : {
+    "JVWz1lnSKkO8fpHFzLfQ-$$QS3NyTkvP1Y0dsCto314w" : {
+      "id" : "JVWz1lnSKkO8fpHFzLfQ-$$QS3NyTkvP1Y0dsCto314w",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "qv19cSLBMGZ7hzao35ODV$$i1EIs4tpElqJpO_f-yHLR",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "3wGPjdjUedQf8KkIJR2YA$$Ju2nq6eRzhr12N9vzRm0R",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "0q1LMOelPyULpn8aCKBv9$$NPawXnK8m5fakDX628NUK" : {
+      "id" : "0q1LMOelPyULpn8aCKBv9$$NPawXnK8m5fakDX628NUK",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "ouWRyrjHFjsnC1KPCxGeu$$9EDmmLdADaYF93EwQA0uz",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "8275/datasets/customer_data_json"
+      }
+    },
     "ril38Vdvfq6UFxFERXgVF$$UoYxw5SmeVdI00JQf9229" : {
       "id" : "ril38Vdvfq6UFxFERXgVF$$UoYxw5SmeVdI00JQf9229",
       "component" : "Limit",
