@@ -15,8 +15,16 @@ pipelines:
     datasets:
       inputs:
       - 8275/datasets/customer_data_json
+      - 5689/datasets/customer_data_parquet
       outputs: []
-    dependencies: {}
+    dependencies:
+      project/5689:
+        name: project/5689
+        projectUID: 5689
+        projectName: scala_project
+        version: scala_project/0.1.1
+        author: null
+        createdAt: '2022-06-29 18:10:40'
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
