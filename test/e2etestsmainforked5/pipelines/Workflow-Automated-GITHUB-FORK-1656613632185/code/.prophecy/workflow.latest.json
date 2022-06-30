@@ -90,6 +90,65 @@
         "datasetId" : "8347/datasets/customer_data_json"
       }
     },
+    "J8E3gFca-MuypDRbPx_Rz$$6ad0p2I13Hwj6_uatzxjo" : {
+      "id" : "J8E3gFca-MuypDRbPx_Rz$$6ad0p2I13Hwj6_uatzxjo",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "uXPsNJ3pXRKsSFJMyELbJ$$TciDvdum06MCTc2Vy3zG5",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "Z4oQsbya2SYSollzwf0A_$$GIRR-cT4K47gJwqklww3S",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "tpJG8pn7_CEi3Ntc7nZgz$$FlydLAwoNBgXzrnefrHuk" : {
+      "id" : "tpJG8pn7_CEi3Ntc7nZgz$$FlydLAwoNBgXzrnefrHuk",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "_5OBt0xuztIThY3okDagU$$wxxPhbMZW-aZypVgAA_Wj",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "5689/datasets/customer_data_parquet"
+      }
+    },
     "Tl2lNtAPlzeIH64Pezl8a$$yD8Z3D1WgMr7wGrcFbOfi" : {
       "id" : "Tl2lNtAPlzeIH64Pezl8a$$yD8Z3D1WgMr7wGrcFbOfi",
       "component" : "Limit",
