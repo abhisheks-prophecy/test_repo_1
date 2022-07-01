@@ -1,0 +1,153 @@
+{
+  "metainfo" : {
+    "id" : "1",
+    "language" : "python",
+    "fabricId" : "299",
+    "frontEndLanguage" : "sql",
+    "mode" : "batch",
+    "udfs" : {
+      "language" : "python",
+      "udfs" : [ ]
+    },
+    "udafs" : {
+      "language" : "python",
+      "code" : ""
+    },
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      },
+      "fabrics" : {
+        "dev" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "trynew" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "ebs_ssd" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "jobSize-databricksBasic.New" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      }
+    },
+    "sparkConf" : [ ],
+    "hadoopConf" : [ ],
+    "codeMode" : "sparse",
+    "buildSystem" : "maven",
+    "externalDependencies" : [ ],
+    "isImported" : false,
+    "interimMode" : "Full",
+    "interimModeEnabled" : true,
+    "visualCodeInterimMode" : "Disabled",
+    "recordsLimit" : {
+      "enabled" : false,
+      "value" : 1000
+    }
+  },
+  "connections" : [ {
+    "id" : "xufE0AMxpQfz1xJBBFRCk",
+    "source" : "XfKn07HYE9SQpH9cqMcKl$$s4_SwWchbmEDNkDBteHeU",
+    "sourcePort" : "-rLC63ThCEoRdl09AL_K3$$uNQkTphujtVxpmoF04BTb",
+    "target" : "th0ZJc8Q8yJNPQYznCZy3$$tL7GLrdBKiYR1PHcerrIB",
+    "targetPort" : "87MjzPlJBT7katu7SIud3$$c3LHR0VxMOZr05_wOYUfF"
+  } ],
+  "processes" : {
+    "th0ZJc8Q8yJNPQYznCZy3$$tL7GLrdBKiYR1PHcerrIB" : {
+      "id" : "th0ZJc8Q8yJNPQYznCZy3$$tL7GLrdBKiYR1PHcerrIB",
+      "component" : "Limit",
+      "metadata" : {
+        "label" : "Limit_1",
+        "slug" : "Limit_1",
+        "x" : 280,
+        "y" : 160,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "87MjzPlJBT7katu7SIud3$$c3LHR0VxMOZr05_wOYUfF",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "vVzj0BVRhywXzM31BalPT$$hrPNjKDQsNOgfWaL3JtA5",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "limit" : "10"
+      }
+    },
+    "vm7-E7hePgwiUkaw_Vfhh$$8rwWWsX2sxY4V_k6uVbFA" : {
+      "id" : "vm7-E7hePgwiUkaw_Vfhh$$8rwWWsX2sxY4V_k6uVbFA",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "go6SOqatEtn_K0iWti9H3$$B6TPjbVltujwuVxd5Ovwp",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7197/datasets/customer_data_json"
+      }
+    },
+    "XfKn07HYE9SQpH9cqMcKl$$s4_SwWchbmEDNkDBteHeU" : {
+      "id" : "XfKn07HYE9SQpH9cqMcKl$$s4_SwWchbmEDNkDBteHeU",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json",
+        "slug" : "customer_data_json",
+        "x" : 140,
+        "y" : 160,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "-rLC63ThCEoRdl09AL_K3$$uNQkTphujtVxpmoF04BTb",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7197/datasets/customer_data_json"
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ ],
+    "outputs" : [ ],
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false
+  }
+}
