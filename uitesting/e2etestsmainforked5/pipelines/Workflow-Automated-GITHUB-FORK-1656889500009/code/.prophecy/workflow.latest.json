@@ -63,6 +63,38 @@
     "targetPort" : "9p-FNjTRVQtNehdr9hR8j$$TxaEjgil1KOmUgKHHL8ou"
   } ],
   "processes" : {
+    "4hzCMcijzx2_rymE3ipK5$$HcTKTuLa1nedQVfiYzTZj" : {
+      "id" : "4hzCMcijzx2_rymE3ipK5$$HcTKTuLa1nedQVfiYzTZj",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "ddmwc9MkYHAZQBEd4wQZS$$VSv7xsqS-ffoutQIhKPx7",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "cwgS603hAMPA0NpkmT3ag$$pu4x9w4kZArlW4e4Nda97",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "pIOxurO8656t76LALZq72$$kJlYlsZvXJ8OSA4Ms8usQ" : {
       "id" : "pIOxurO8656t76LALZq72$$kJlYlsZvXJ8OSA4Ms8usQ",
       "component" : "Limit",
@@ -91,6 +123,33 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "Wba1d_V9T_EyKuLmH6e5t$$9ryuUmCEXGcSNydxlz6c5" : {
+      "id" : "Wba1d_V9T_EyKuLmH6e5t$$9ryuUmCEXGcSNydxlz6c5",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "EJhnwIk2aHyc4lXGsDQNt$$9T5OdVyfR445JsiqYDZi_",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7350/datasets/customer_data_json"
       }
     },
     "QHANz5O4pKEo76AKaIiEF$$B4I9wpT1H46SKK2R5Z1IN" : {
