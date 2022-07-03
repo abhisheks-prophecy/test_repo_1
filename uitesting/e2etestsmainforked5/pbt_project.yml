@@ -1,0 +1,37 @@
+name: Project-Automated-FORKED-GITHUB
+description: ''
+version: 0.0.1
+author: abhisheks+e2etests@simpledatalabs.com
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/Workflow-Automated-GITHUB-FORK-1656889500009:
+    name: Workflow-Automated-GITHUB-FORK-1656889500009
+    description: automation workflow
+    author: abhisheks+e2etests@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-03 23:05:21'
+    datasets:
+      inputs:
+      - 7350/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+datasets:
+  datasets/customer_data_json:
+    name: customer_data_json
+    description: ''
+    author: abhisheks+e2etests@simpledatalabs.com
+    createdAt: '2022-07-03 23:09:16'
+    physicalDatasets:
+      dev:
+        fabricId: 299
+        datasetType: File
+        description: ''
+        author: abhisheks+e2etests@simpledatalabs.com
+        createdAt: '2022-07-03 23:09:16'
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
