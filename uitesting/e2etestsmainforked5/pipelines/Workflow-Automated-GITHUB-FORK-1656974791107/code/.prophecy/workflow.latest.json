@@ -93,6 +93,65 @@
         "limit" : "10"
       }
     },
+    "P0QfNqXeg72hLikQMuDiM$$PwG-Ta93grT36pPIWSYAn" : {
+      "id" : "P0QfNqXeg72hLikQMuDiM$$PwG-Ta93grT36pPIWSYAn",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "LbZPDs8m-rKj-Op92XCjM$$bdsH4MqOlgipWlhl_RZLa",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7394/datasets/customer_data_json"
+      }
+    },
+    "-Y1y29nTpxwTijjGYz7qj$$WT7Rs9kLgSkN5m3eyuPQV" : {
+      "id" : "-Y1y29nTpxwTijjGYz7qj$$WT7Rs9kLgSkN5m3eyuPQV",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "TPCDcP2P_SEDSMSkjsw39$$H-KgrA7DUau81ZqSEc0yC",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "93A2JFJaQZgsnsasongZj$$Tj0sx_EOPg5CgTJGYF7iA",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "Wh8_EmjTHh9qlbxfTy9jn$$Nqh2kJrAK4zehGU_17jYC" : {
       "id" : "Wh8_EmjTHh9qlbxfTy9jn$$Nqh2kJrAK4zehGU_17jYC",
       "component" : "Source",
