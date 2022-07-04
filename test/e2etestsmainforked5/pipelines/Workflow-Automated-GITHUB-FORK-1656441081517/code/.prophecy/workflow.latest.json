@@ -1,0 +1,185 @@
+{
+  "metainfo" : {
+    "id" : "1",
+    "language" : "python",
+    "fabricId" : "674",
+    "frontEndLanguage" : "sql",
+    "mode" : "batch",
+    "udfs" : {
+      "language" : "python",
+      "udfs" : [ ]
+    },
+    "udafs" : {
+      "language" : "python",
+      "code" : ""
+    },
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      },
+      "fabrics" : {
+        "dev" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "dev1" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "zzrandom" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "managed" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      }
+    },
+    "sparkConf" : [ ],
+    "hadoopConf" : [ ],
+    "codeMode" : "sparse",
+    "buildSystem" : "maven",
+    "externalDependencies" : [ ],
+    "isImported" : false,
+    "interimMode" : "Full",
+    "interimModeEnabled" : true,
+    "visualCodeInterimMode" : "Disabled",
+    "recordsLimit" : {
+      "enabled" : false,
+      "value" : 1000
+    }
+  },
+  "connections" : [ {
+    "id" : "GE0IaLVU3MLmSQvUPSmsZ",
+    "source" : "kE-JQzwXFJW3_FSkIcKWD$$mCKoUQnbia2JFxwmn2jj5",
+    "sourcePort" : "kgAvGbMgCVtUjNZ2EZCMK$$C8_W9nu4UZKQgqycwQxCV",
+    "target" : "oa55ZJFcM8E76SKj4jBbv$$sqgSGXp1Ac2uZP18S-Wa6",
+    "targetPort" : "D_AQfj-k7UQCrrZB7J5OO$$a8OGnF0r9qhUiZ1L2yXqr"
+  } ],
+  "processes" : {
+    "GBbvAbdc3_80cZoMNMWMx$$jV88W7WB9613J3n3nZXiB" : {
+      "id" : "GBbvAbdc3_80cZoMNMWMx$$jV88W7WB9613J3n3nZXiB",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Ztm-itBkN_18QNuFOgfmu$$sIloFFfWxpVh8Dpygxnnx",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "gbyzyZKWFJZvGQcOp1nQc$$9GLepEubSNkAr3vCIs-we",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "kE-JQzwXFJW3_FSkIcKWD$$mCKoUQnbia2JFxwmn2jj5" : {
+      "id" : "kE-JQzwXFJW3_FSkIcKWD$$mCKoUQnbia2JFxwmn2jj5",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json",
+        "slug" : "customer_data_json",
+        "x" : 140,
+        "y" : 160,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "kgAvGbMgCVtUjNZ2EZCMK$$C8_W9nu4UZKQgqycwQxCV",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "8228/datasets/customer_data_json"
+      }
+    },
+    "93Gv9x3GFtyyPfoDplrm4$$IzedMJFFKOxWY9qmP7d6e" : {
+      "id" : "93Gv9x3GFtyyPfoDplrm4$$IzedMJFFKOxWY9qmP7d6e",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "4g0N1FN_K0w_C3ZI9EIQS$$ccMk0_wrK7rm8QGxnhEq4",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "8228/datasets/customer_data_json"
+      }
+    },
+    "oa55ZJFcM8E76SKj4jBbv$$sqgSGXp1Ac2uZP18S-Wa6" : {
+      "id" : "oa55ZJFcM8E76SKj4jBbv$$sqgSGXp1Ac2uZP18S-Wa6",
+      "component" : "Limit",
+      "metadata" : {
+        "label" : "Limit_1",
+        "slug" : "Limit_1",
+        "x" : 280,
+        "y" : 160,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "D_AQfj-k7UQCrrZB7J5OO$$a8OGnF0r9qhUiZ1L2yXqr",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "n7sqXiub5iZYx_epSQfhi$$pFDP4pEGA6nR0js5Mi94j",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "limit" : "10"
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ ],
+    "outputs" : [ ],
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false
+  }
+}
