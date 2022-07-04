@@ -93,6 +93,33 @@
         "limit" : "10"
       }
     },
+    "yYYE8A9ALIhN7vUAQ6LiS$$9GFSzkMW14hn2OpzID8t2" : {
+      "id" : "yYYE8A9ALIhN7vUAQ6LiS$$9GFSzkMW14hn2OpzID8t2",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "t9yPfEIekTOeV8yt9vAud$$PcSR1j3Cs4-2ybO68QRcH",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "4694/datasets/customer_data_parquet"
+      }
+    },
     "Wh8_EmjTHh9qlbxfTy9jn$$Nqh2kJrAK4zehGU_17jYC" : {
       "id" : "Wh8_EmjTHh9qlbxfTy9jn$$Nqh2kJrAK4zehGU_17jYC",
       "component" : "Source",
@@ -118,6 +145,38 @@
       },
       "properties" : {
         "datasetId" : "7394/datasets/customer_data_json"
+      }
+    },
+    "9OEFSFoOGJ00bqdEEWIFu$$QUx-BPN5rDlGi4mD__HMp" : {
+      "id" : "9OEFSFoOGJ00bqdEEWIFu$$QUx-BPN5rDlGi4mD__HMp",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "fUM5A6qaENlikoIFIoJyq$$S8XlDcR5qY87SG3L0EMDq",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "dXXy07hNF7XOA0cQ64N3r$$n3O9OItI8mQWZMkeAIkJc",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     }
   },
