@@ -15,8 +15,16 @@ pipelines:
     datasets:
       inputs:
       - 7508/datasets/customer_data_json
+      - 4694/datasets/customer_data_parquet
       outputs: []
-    dependencies: {}
+    dependencies:
+      project/4694:
+        name: project/4694
+        projectUID: 4694
+        projectName: python_project
+        version: python_project/0.2
+        author: null
+        createdAt: '2022-07-06 23:22:17'
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
