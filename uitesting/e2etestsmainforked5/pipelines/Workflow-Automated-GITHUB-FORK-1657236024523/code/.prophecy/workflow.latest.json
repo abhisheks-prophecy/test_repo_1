@@ -94,6 +94,65 @@
         "datasetId" : "7583/datasets/customer_data_json"
       }
     },
+    "tEAkOMXsR6MbXqXpYQWQ4$$e0Cmwtb9C9kxYJWUCfpn3" : {
+      "id" : "tEAkOMXsR6MbXqXpYQWQ4$$e0Cmwtb9C9kxYJWUCfpn3",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "7Qt5G7sLKKWCAmCt-3GCr$$uQnRufAkRiYfBSZ5RprHO",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "LSnh2TqLvDmCdI7JZ1x5l$$e616CDEKSsu_8U0BQESSb",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "baXcDw9fUxlF063a9wXpp$$r3QIXJ1gT39poDDeonZqa" : {
+      "id" : "baXcDw9fUxlF063a9wXpp$$r3QIXJ1gT39poDDeonZqa",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "Xcw6J8FJ24HaXeAVUH9lO$$6UHCKdErXQuh1x5TULU7E",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "4694/datasets/customer_data_parquet"
+      }
+    },
     "WhzCpMX8r13Hs16YzZa23$$IGoaWqPwXceSMJWI1zbho" : {
       "id" : "WhzCpMX8r13Hs16YzZa23$$IGoaWqPwXceSMJWI1zbho",
       "component" : "Limit",
