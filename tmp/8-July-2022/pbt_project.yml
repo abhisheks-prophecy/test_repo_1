@@ -1,0 +1,32 @@
+name: BRANCH_Merge_Forked
+description: ''
+version: 0.0.1
+author: abhisheks+e2etests1@simpledatalabs.com
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/test1:
+    name: test1
+    description: test1
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-08 08:34:01'
+    datasets:
+      inputs:
+      - 6148/datasets/src_json_input_custs
+      outputs: []
+    dependencies:
+      project/6148:
+        name: project/6148
+        projectUID: 6148
+        projectName: ScalaMainProject
+        version: ScalaMainProject/1.5
+        author: null
+        createdAt: '2022-07-08 08:35:04'
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
