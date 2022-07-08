@@ -27,6 +27,18 @@ pipelines:
     datasets:
       inputs:
       - 7706/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1657322495637:
+    name: Workflow-Automated-GITHUB-FORK-1657322495637
+    description: automation workflow
+    author: abhisheks+e2etests@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-08 23:21:59'
+    datasets:
+      inputs:
+      - 7704/datasets/customer_data_json
       - 4694/datasets/customer_data_parquet
       outputs: []
     dependencies:
@@ -36,7 +48,7 @@ pipelines:
         projectName: python_project
         version: python_project/0.2
         author: null
-        createdAt: '2022-07-08 23:29:51'
+        createdAt: '2022-07-08 23:25:10'
   pipelines/Workflow-Automated-GITHUB-FORK-1657062078496:
     name: Workflow-Automated-GITHUB-FORK-1657062078496
     description: automation workflow
