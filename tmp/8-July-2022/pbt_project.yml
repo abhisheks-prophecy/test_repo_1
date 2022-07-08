@@ -1,0 +1,32 @@
+name: BRANCH_Merge_Forked
+description: ''
+version: 0.0.1
+author: abhisheks+e2etests1@simpledatalabs.com
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/test1:
+    name: test1
+    description: test1
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-08 08:34:01'
+    datasets:
+      inputs:
+      - 6154/datasets/src_parquet_all_type_and_partition_withspacehyphens
+      outputs: []
+    dependencies:
+      project/6154:
+        name: project/6154
+        projectUID: 6154
+        projectName: PythonMainProject
+        version: PythonMainProject/1.6
+        author: null
+        createdAt: '2022-07-08 08:34:27'
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
