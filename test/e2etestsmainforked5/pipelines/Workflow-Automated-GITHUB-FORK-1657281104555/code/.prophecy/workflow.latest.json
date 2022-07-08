@@ -101,6 +101,33 @@
         "limit" : "10"
       }
     },
+    "ExetPW5nkyxcPcIPRF1JN$$Q6rB1uncRqtLufe9BnijB" : {
+      "id" : "ExetPW5nkyxcPcIPRF1JN$$Q6rB1uncRqtLufe9BnijB",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "XWypX4FAZsflH7As2eXAJ$$3nqQKtOLqdCMmLnLfGcoF",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "8949/datasets/customer_data_json"
+      }
+    },
     "wCusKH9C4zvUw9uMBS9Rz$$lkYTjBhky1sX0fwwgniYU" : {
       "id" : "wCusKH9C4zvUw9uMBS9Rz$$lkYTjBhky1sX0fwwgniYU",
       "component" : "Source",
