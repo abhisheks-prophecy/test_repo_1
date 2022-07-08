@@ -1,0 +1,13 @@
+name: BRANCH_Merge_Forked
+description: ''
+version: '1.1'
+author: null
+language: python
+buildSystem: wheel
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
