@@ -1,6 +1,6 @@
 name: BRANCH_Merge_Forked
 description: ''
-version: 0.0.1
+version: '1.1'
 author: abhisheks+e2etests1@simpledatalabs.com
 language: python
 buildSystem: wheel
