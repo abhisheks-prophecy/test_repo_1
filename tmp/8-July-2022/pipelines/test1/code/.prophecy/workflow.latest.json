@@ -77,8 +77,8 @@
       "metadata" : {
         "label" : "Reformat_1",
         "slug" : "Reformat_1",
-        "x" : 280,
-        "y" : 160,
+        "x" : 359,
+        "y" : 72,
         "language" : "python",
         "phase" : 0,
         "cache" : false,
