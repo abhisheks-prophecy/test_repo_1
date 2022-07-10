@@ -71,6 +71,65 @@
     "targetPort" : "M_LWXQ5wt_NfykJpSAamb$$O2oHOMQx-YK39neum0QTh"
   } ],
   "processes" : {
+    "5jeOeATMlXdR0jPRL7uEj$$lnljOKGUSE3I--8TNa2OL" : {
+      "id" : "5jeOeATMlXdR0jPRL7uEj$$lnljOKGUSE3I--8TNa2OL",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "etjotNwTzhC2Bj5-oB0o5$$2dIc_BA5em4rU-kdcHDnb",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9160/datasets/customer_data_json"
+      }
+    },
+    "juR3-0zSn8PMNkNdxsD6z$$TE0sNeTas7ktQpFBcIKFk" : {
+      "id" : "juR3-0zSn8PMNkNdxsD6z$$TE0sNeTas7ktQpFBcIKFk",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "jAUqNas_PP_NlVIgJYy8A$$_GnsKCvvjLW9urL-zuYNQ",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "gNS-kvTLH_cBgrSF46nG9$$xB3NbVDfH6t2_SkX2bGMY",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "2QBWQp38XRU5-s5wZEkzm$$UcDQ4q7A8jN0fMtCBlLHn" : {
       "id" : "2QBWQp38XRU5-s5wZEkzm$$UcDQ4q7A8jN0fMtCBlLHn",
       "component" : "Source",
