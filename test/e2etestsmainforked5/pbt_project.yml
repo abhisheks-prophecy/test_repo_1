@@ -121,8 +121,16 @@ pipelines:
     datasets:
       inputs:
       - 9162/datasets/customer_data_json
+      - 5689/datasets/customer_data_parquet
       outputs: []
-    dependencies: {}
+    dependencies:
+      project/5689:
+        name: project/5689
+        projectUID: 5689
+        projectName: scala_project
+        version: scala_project/0.1.1
+        author: null
+        createdAt: '2022-07-10 18:11:01'
   pipelines/Workflow-Automated-GITHUB-FORK-1656613632185:
     name: Workflow-Automated-GITHUB-FORK-1656613632185
     description: automation workflow
