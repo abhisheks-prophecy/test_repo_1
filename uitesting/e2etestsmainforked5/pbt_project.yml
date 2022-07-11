@@ -5,6 +5,18 @@ author: abhisheks+e2etests@simpledatalabs.com
 language: python
 buildSystem: wheel
 pipelines:
+  pipelines/Workflow-Automated-GITHUB-FORK-1657581167238:
+    name: Workflow-Automated-GITHUB-FORK-1657581167238
+    description: automation workflow
+    author: abhisheks+e2etests@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-11 23:13:11'
+    datasets:
+      inputs:
+      - 7905/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1657061781368:
     name: Workflow-Automated-GITHUB-FORK-1657061781368
     description: automation workflow
