@@ -5,19 +5,6 @@ author: abhisheks+e2etests1@simpledatalabs.com
 language: python
 buildSystem: wheel
 pipelines:
-  pipelines/Workflow-Automated-GITHUB-FORK-1656266244403:
-    name: Workflow-Automated-GITHUB-FORK-1656266244403
-    description: automation workflow
-    author: abhisheks+e2etests1@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-06-26 17:57:44'
-    datasets:
-      inputs:
-      - 7984/datasets/customer_data_json
-      - 7984/datasets/customer_data_parquet
-      outputs: []
-    dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1656440740639:
     name: Workflow-Automated-GITHUB-FORK-1656440740639
     description: automation workflow
@@ -151,6 +138,31 @@ pipelines:
         version: scala_project/0.1.1
         author: null
         createdAt: '2022-06-29 18:10:40'
+  pipelines/Workflow-Automated-GITHUB-FORK-1657562103428:
+    name: Workflow-Automated-GITHUB-FORK-1657562103428
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-11 17:55:32'
+    datasets:
+      inputs:
+      - 9241/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1656266244403:
+    name: Workflow-Automated-GITHUB-FORK-1656266244403
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-26 17:57:44'
+    datasets:
+      inputs:
+      - 7984/datasets/customer_data_json
+      - 7984/datasets/customer_data_parquet
+      outputs: []
+    dependencies: {}
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
