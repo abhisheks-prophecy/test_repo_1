@@ -17,26 +17,6 @@ pipelines:
       - 7437/datasets/customer_data_json
       outputs: []
     dependencies: {}
-  pipelines/Workflow-Automated-GITHUB-FORK-1657062078496:
-    name: Workflow-Automated-GITHUB-FORK-1657062078496
-    description: automation workflow
-    author: abhisheks+e2etests@simpledatalabs.com
-    mode: batch
-    language: python
-    createdAt: '2022-07-05 23:01:39'
-    datasets:
-      inputs:
-      - 7438/datasets/customer_data_json
-      - 4694/datasets/customer_data_parquet
-      outputs: []
-    dependencies:
-      project/4694:
-        name: project/4694
-        projectUID: 4694
-        projectName: python_project
-        version: python_project/0.2
-        author: null
-        createdAt: '2022-07-05 23:04:57'
   pipelines/Workflow-Automated-GITHUB-FORK-1657149514660:
     name: Workflow-Automated-GITHUB-FORK-1657149514660
     description: automation workflow
@@ -147,6 +127,38 @@ pipelines:
     datasets:
       inputs:
       - 7582/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
+  pipelines/Workflow-Automated-GITHUB-FORK-1657062078496:
+    name: Workflow-Automated-GITHUB-FORK-1657062078496
+    description: automation workflow
+    author: abhisheks+e2etests@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-05 23:01:39'
+    datasets:
+      inputs:
+      - 7438/datasets/customer_data_json
+      - 4694/datasets/customer_data_parquet
+      outputs: []
+    dependencies:
+      project/4694:
+        name: project/4694
+        projectUID: 4694
+        projectName: python_project
+        version: python_project/0.2
+        author: null
+        createdAt: '2022-07-05 23:04:57'
+  pipelines/Workflow-Automated-GITHUB-FORK-1657581460959:
+    name: Workflow-Automated-GITHUB-FORK-1657581460959
+    description: automation workflow
+    author: abhisheks+e2etests@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-11 23:18:02'
+    datasets:
+      inputs:
+      - 7907/datasets/customer_data_json
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1656073564428:
