@@ -98,6 +98,65 @@
         "datasetId" : "7972/datasets/customer_data_json"
       }
     },
+    "ZJKLlAeWzKuIwIdgEmaot$$vew8nn7V9Bvh7Tqen-uQv" : {
+      "id" : "ZJKLlAeWzKuIwIdgEmaot$$vew8nn7V9Bvh7Tqen-uQv",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "5nEU3iiXL3hCu2QFS_0jS$$IvccSUVEyb7avO-D3Ukpr",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "7972/datasets/customer_data_json"
+      }
+    },
+    "dJT6GaAiIeI7gv6u5dFCG$$RMU8cZbKGBFLOOLabgt0F" : {
+      "id" : "dJT6GaAiIeI7gv6u5dFCG$$RMU8cZbKGBFLOOLabgt0F",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "1Sl6a6NQtgUHTFRBjn4UH$$XmvsufmuLMiYs3vhkQkp-",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "smCmDvrmWziyTmZPNEC4B$$yhKot2ltSsPXsGglrXgCd",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "QIH5QG1uvWG06Cyk3gcOf$$K_L4z7PGcvpeBqTCXThDH" : {
       "id" : "QIH5QG1uvWG06Cyk3gcOf$$K_L4z7PGcvpeBqTCXThDH",
       "component" : "Limit",
