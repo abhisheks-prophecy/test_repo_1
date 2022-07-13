@@ -127,6 +127,65 @@
       "properties" : {
         "datasetId" : "9366/datasets/customer_data_json"
       }
+    },
+    "OkiaY_17IGMVVlfft_mxV$$dI1Rs9QNDCx9hcm9E-Dae" : {
+      "id" : "OkiaY_17IGMVVlfft_mxV$$dI1Rs9QNDCx9hcm9E-Dae",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "7p7EH7Q8Jwf54IzMSnX_B$$L6CTXQe971aLRrfXyqBfY",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "IEGWz1ixGIlGDuJr2Q9Pl$$-IuRSTPDY9BXm-vJTOGbP",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "uAcJsG02MhPei92OjTMvP$$R2jufKchEr0XOv8ddrE7G" : {
+      "id" : "uAcJsG02MhPei92OjTMvP$$R2jufKchEr0XOv8ddrE7G",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "vf-C0K8WVBkwKloq3ktO5$$RGrjifyAzbIBdRYgTxSir",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9366/datasets/customer_data_parquet"
+      }
     }
   },
   "ports" : {
