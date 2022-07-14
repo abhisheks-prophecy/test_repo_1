@@ -67,6 +67,65 @@
     "targetPort" : "DO41ufJRij5vLoVUxRJCu$$6hxvVPwrQxlc0WnL3aShZ"
   } ],
   "processes" : {
+    "1nbt-zX3hUrsryF_4tJX8$$LIjE1Ga6HmVOAAIpLEszG" : {
+      "id" : "1nbt-zX3hUrsryF_4tJX8$$LIjE1Ga6HmVOAAIpLEszG",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Kvc1g8UYIBKm9uPxQ_3A0$$Vx-RnQaM6ITVOcMU8o_42",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "8CSUIkSlo5rd_Efa-l6_i$$Lnw-w-v0YI5FSWbD_PafU",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "qERY3FtFCoS69iieeJuFD$$uzr6va6BYGt45W9y3eVZF" : {
+      "id" : "qERY3FtFCoS69iieeJuFD$$uzr6va6BYGt45W9y3eVZF",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "rIvjks5eL2_RgxWA3lOn0$$QR2OiSDWFMB99Psbq1piW",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "8210/datasets/customer_data_json"
+      }
+    },
     "sSTP1aAypGPKCWs4yo-f2$$QTArfBG92XeymEMow0Zz2" : {
       "id" : "sSTP1aAypGPKCWs4yo-f2$$QTArfBG92XeymEMow0Zz2",
       "component" : "Source",
