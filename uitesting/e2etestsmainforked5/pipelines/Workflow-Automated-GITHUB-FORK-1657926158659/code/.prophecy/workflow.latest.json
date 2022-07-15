@@ -94,6 +94,65 @@
         "datasetId" : "8275/datasets/customer_data_json"
       }
     },
+    "kX_KMx9FY-Nk_xT8CKsCL$$IWe3vPfWYoa3E3TyOyrpK" : {
+      "id" : "kX_KMx9FY-Nk_xT8CKsCL$$IWe3vPfWYoa3E3TyOyrpK",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "tj6_guxnlfEDiWPxmq4ai$$LyAxYG3myyVB3l_NiNDrg",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "4694/datasets/customer_data_parquet"
+      }
+    },
+    "fDvtEYsp75cWDq-bTTxA7$$BAy7p4TfAHbPDQ-o7fPFU" : {
+      "id" : "fDvtEYsp75cWDq-bTTxA7$$BAy7p4TfAHbPDQ-o7fPFU",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "0O3NZrgftigKXz6L8KIKY$$zumNNAwSUimFW5-EUH7gK",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "yFIPgKBE5GAP-66b1eiFQ$$mdMBH6Cbll1LRnrsIryQx",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "xoH16Kjpee-hMzfxC5Do5$$2cV5a9m1FOU2ga6kkM6t1" : {
       "id" : "xoH16Kjpee-hMzfxC5Do5$$2cV5a9m1FOU2ga6kkM6t1",
       "component" : "Limit",
