@@ -97,6 +97,65 @@
         "limit" : "10"
       }
     },
+    "3ogpYiqliQhXgt3am7I_F$$1jiEopFKtmcDwMpcaDkvZ" : {
+      "id" : "3ogpYiqliQhXgt3am7I_F$$1jiEopFKtmcDwMpcaDkvZ",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "5UJCJo1HkSVag29d-aTcC$$rVF2yaJ2v1PZkH-gXpNZ3",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "gthx852fI_cVOwvcLvfc_$$xOorFY6yI-rFUA28nyz0O",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "3kERnNQgH6Nanv_1Ah006$$xUbeO8mCU6ISjqwnxzHRz" : {
+      "id" : "3kERnNQgH6Nanv_1Ah006$$xUbeO8mCU6ISjqwnxzHRz",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "nuIKwIzfZ0Q8PIF35RvAs$$VQPUOPFUnsqQ7L-6F5ESk",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "4694/datasets/customer_data_parquet"
+      }
+    },
     "0K6-Lv3DbHwzA9OTUWTGj$$09d0qa5ZMoyvxqu53SJri" : {
       "id" : "0K6-Lv3DbHwzA9OTUWTGj$$09d0qa5ZMoyvxqu53SJri",
       "component" : "Source",
