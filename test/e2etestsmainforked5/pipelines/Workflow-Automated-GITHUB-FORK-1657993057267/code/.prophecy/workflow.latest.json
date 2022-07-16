@@ -67,6 +67,37 @@
     "targetPort" : "dAYZiPGhG4PYfFNnk4ZDT$$V9RZXH15x-HRRNr-BaVjy"
   } ],
   "processes" : {
+    "XGbpstuJbT2g0FvD3KHO_$$TMNmeipaUen95PhUUgbM3" : {
+      "id" : "XGbpstuJbT2g0FvD3KHO_$$TMNmeipaUen95PhUUgbM3",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "9TEX225rp8VcUn7PeMmgW$$a9RAF1obWvT3YAHgeq-8J",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "3po8uhcDT5LgQv5SOmhwn$$3TgChYv8sk_41F1q7PDMQ",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "l_4z7mdpeVUyfjTORNJvT$$YW9ZNTmrcHmRM5dax-2PN" : {
       "id" : "l_4z7mdpeVUyfjTORNJvT$$YW9ZNTmrcHmRM5dax-2PN",
       "component" : "Source",
@@ -120,6 +151,32 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "3NuIMb6YIHBVWmnH8fxjf$$RgcxkBJDcbCVPz2FU4a8O" : {
+      "id" : "3NuIMb6YIHBVWmnH8fxjf$$RgcxkBJDcbCVPz2FU4a8O",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "IWlepXMtktIN4SYGiRayb$$o7QTaEPcIgr0FZCRdL6oS",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9574/datasets/customer_data_parquet"
       }
     }
   },
