@@ -67,6 +67,37 @@
     "targetPort" : "86YgBa5GSwFEzE4Q9O1Ag$$5NZ-a-GkBCe_unZ_rHTva"
   } ],
   "processes" : {
+    "NhMysXIISwsZzXuNzmVCj$$ZLJ5XXN17XottkndfaSLa" : {
+      "id" : "NhMysXIISwsZzXuNzmVCj$$ZLJ5XXN17XottkndfaSLa",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "lLXu-h0hgyzMJZHluoER8$$wLMh9yWOkVfO80L8o7xyP",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "nweS0i1nd-UyFMUWzy47b$$h4Ll0DPbwPFLp4lR5TsOJ",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "f6sTrv8Ad47tP7UdpX7rw$$wTnYtdmKitaqPzcyCGSQl" : {
       "id" : "f6sTrv8Ad47tP7UdpX7rw$$wTnYtdmKitaqPzcyCGSQl",
       "component" : "Source",
@@ -84,6 +115,32 @@
         "inputs" : [ ],
         "outputs" : [ {
           "id" : "DXPnItibH_Za5cvllVTeL$$oNPc6Jc4nyGFpCqJxWpRD",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9578/datasets/customer_data_json"
+      }
+    },
+    "HmY5ltSjq091wyFcW4YZX$$XQnlaPNb3yHB4K3pxs6c4" : {
+      "id" : "HmY5ltSjq091wyFcW4YZX$$XQnlaPNb3yHB4K3pxs6c4",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "llIAx8203C-Vqu5ayUm7Q$$p9gEIQqC5OSAGG_lu3vjU",
           "slug" : "out"
         } ],
         "selectedInputFields" : [ ],
