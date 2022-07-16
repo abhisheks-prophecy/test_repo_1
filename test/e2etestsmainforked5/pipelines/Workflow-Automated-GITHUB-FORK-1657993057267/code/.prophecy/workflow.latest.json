@@ -121,6 +121,32 @@
       "properties" : {
         "limit" : "10"
       }
+    },
+    "_ZEat1tT2_wJgKbz-Q1vO$$Fxo8_miSlXMsZK5ocjx-B" : {
+      "id" : "_ZEat1tT2_wJgKbz-Q1vO$$Fxo8_miSlXMsZK5ocjx-B",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "b4irlnVUNMw6L5qeBYFr1$$1az35Vp4vkZroN6k_q5xS",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9574/datasets/customer_data_json"
+      }
     }
   },
   "ports" : {
