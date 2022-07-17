@@ -96,6 +96,32 @@
         "limit" : "10"
       }
     },
+    "kHQF50a_O_bMVjpjU8_2B$$w2xROUhkTVUCz-oLh-3ZK" : {
+      "id" : "kHQF50a_O_bMVjpjU8_2B$$w2xROUhkTVUCz-oLh-3ZK",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "WUkZ2XthnFClYhxUul-15$$6dLSi3XDwhHAXf-JUu07f",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9649/datasets/customer_data_json"
+      }
+    },
     "JdcsAjX7FQgPYdSZW7BzY$$lTnB35nvEU8Fw3Zk30h54" : {
       "id" : "JdcsAjX7FQgPYdSZW7BzY$$lTnB35nvEU8Fw3Zk30h54",
       "component" : "Source",
@@ -120,6 +146,37 @@
       },
       "properties" : {
         "datasetId" : "9649/datasets/customer_data_json"
+      }
+    },
+    "lMqm5aLN0Wp2Z73wG2my9$$TcaDxeQuXkyeRFAIRY4oF" : {
+      "id" : "lMqm5aLN0Wp2Z73wG2my9$$TcaDxeQuXkyeRFAIRY4oF",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "UMyQGfxD6DqOlyfwyIYhH$$fph8EZGDa3GP8FBoqJ2Du",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "Z6UnNRkj5Bx1nNU2czmhB$$kht4BsfKthmcOnsJMbkuA",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     }
   },
