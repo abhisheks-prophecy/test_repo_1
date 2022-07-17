@@ -93,6 +93,63 @@
         "datasetId" : "9647/datasets/customer_data_json"
       }
     },
+    "7IQ35tDjhe946PGynhkn4$$P8UAOFn6BDgvr_Ocmn-VZ" : {
+      "id" : "7IQ35tDjhe946PGynhkn4$$P8UAOFn6BDgvr_Ocmn-VZ",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "-ckSqaJdAxRMr8f5R-uUQ$$1pwjTABd7ViGnj4IJs45j",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9647/datasets/customer_data_json"
+      }
+    },
+    "ZeVemFoAKVczGNJ4saiaF$$lukg_jhXCR0Ucwe4kBr_E" : {
+      "id" : "ZeVemFoAKVczGNJ4saiaF$$lukg_jhXCR0Ucwe4kBr_E",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "vG-p6UX5HDTJDZOvrJ2xI$$PXSwbP0Wwia702et5Uza2",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "crPT_QMBjfdIS0MPVpQIX$$glWU9Vj3uQQQuv9Eey6cL",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "iWcrkNbjkfVBObvctT1yk$$VvU5Hg31kJx0Z8tXwEd6A" : {
       "id" : "iWcrkNbjkfVBObvctT1yk$$VvU5Hg31kJx0Z8tXwEd6A",
       "component" : "Limit",
