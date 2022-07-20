@@ -161,6 +161,7 @@ pipelines:
     datasets:
       inputs:
       - 10146/datasets/customer_data_json
+      - 10146/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
 datasets:
