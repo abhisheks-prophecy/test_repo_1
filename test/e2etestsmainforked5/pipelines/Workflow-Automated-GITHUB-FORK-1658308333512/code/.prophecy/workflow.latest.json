@@ -100,6 +100,32 @@
         "limit" : "10"
       }
     },
+    "6_1TPvNTsmB5-d8nriyWf$$NetbwnOJnVkuhy2xFgibF" : {
+      "id" : "6_1TPvNTsmB5-d8nriyWf$$NetbwnOJnVkuhy2xFgibF",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "Hd1mzRqIsZjVtiNw6AWBy$$VxKnZWgH_k1wJiu4wLHZN",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10086/datasets/customer_data_json"
+      }
+    },
     "rgX5dwgjlrDCDbsqtCZ1e$$iQZhsevusYS3E-vfDlykC" : {
       "id" : "rgX5dwgjlrDCDbsqtCZ1e$$iQZhsevusYS3E-vfDlykC",
       "component" : "Source",
