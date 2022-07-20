@@ -28,6 +28,7 @@ pipelines:
     datasets:
       inputs:
       - 10142/datasets/customer_data_json
+      - 10142/datasets/customer_data_parquet
       outputs: []
     dependencies: {}
   pipelines/Workflow-Automated-GITHUB-FORK-1656440740639:
