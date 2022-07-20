@@ -1,0 +1,32 @@
+name: testFork
+description: ''
+version: 0.0.1
+author: abhisheks+e2etests1@simpledatalabs.com
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/testFork:
+    name: testFork
+    description: ''
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-20 11:39:31'
+    datasets:
+      inputs:
+      - 6154/datasets/src_parquet_all_type_and_partition_withspacehyphens
+      outputs: []
+    dependencies:
+      project/6154:
+        name: project/6154
+        projectUID: 6154
+        projectName: PythonMainProject
+        version: PythonMainProject/2.15
+        author: null
+        createdAt: '2022-07-20 11:41:08'
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
