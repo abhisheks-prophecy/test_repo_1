@@ -75,6 +75,63 @@
     "targetPort" : "7NUAtWfjlJlXr-Vacf-cR$$PaMD5Z9dex-J0zThlQIEt"
   } ],
   "processes" : {
+    "CyeQuv50eZ7Ynj-qPwAJQ$$UmN1jWmcU7VEqNj-i6HKs" : {
+      "id" : "CyeQuv50eZ7Ynj-qPwAJQ$$UmN1jWmcU7VEqNj-i6HKs",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "_oNTDJq9utD4uq0mMZ5jJ$$YxXaoNHrH8t5LgTG_4dug",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10142/datasets/customer_data_json"
+      }
+    },
+    "l7OqORgZ1rLfPzTbLIwUp$$EdEfqFmKIjMqbI3b6-S5a" : {
+      "id" : "l7OqORgZ1rLfPzTbLIwUp$$EdEfqFmKIjMqbI3b6-S5a",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "9IrjWpkZQG2_EEqWlLoLY$$v70GNz9OGiWBwnaFhhdaT",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "-GfFsOyQ9_aeppfwSLFcH$$RE6VTtTRD86ywkjqrccIe",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "_t-o9hqr5IsoS64BheqRk$$0kfhxePRutRTirwsXVMiQ" : {
       "id" : "_t-o9hqr5IsoS64BheqRk$$0kfhxePRutRTirwsXVMiQ",
       "component" : "Limit",
