@@ -151,6 +151,18 @@ pipelines:
         version: scala_project/0.1.1
         author: null
         createdAt: '2022-06-29 18:10:40'
+  pipelines/Workflow-Automated-GITHUB-FORK-1658338125861:
+    name: Workflow-Automated-GITHUB-FORK-1658338125861
+    description: automation workflow
+    author: abhisheks+e2etests1@simpledatalabs.com
+    mode: batch
+    language: python
+    createdAt: '2022-07-20 17:29:24'
+    datasets:
+      inputs:
+      - 10146/datasets/customer_data_json
+      outputs: []
+    dependencies: {}
 datasets:
   datasets/customer_data_json:
     name: customer_data_json
