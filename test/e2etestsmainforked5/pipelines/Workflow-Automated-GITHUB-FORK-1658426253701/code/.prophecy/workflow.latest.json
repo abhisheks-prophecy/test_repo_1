@@ -101,6 +101,63 @@
         "datasetId" : "10222/datasets/customer_data_json"
       }
     },
+    "RpFCCfHQAo4oDnQeMLMW9$$tn79FiIyOfHQlAHgs7wiT" : {
+      "id" : "RpFCCfHQAo4oDnQeMLMW9$$tn79FiIyOfHQlAHgs7wiT",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "6pSv9gDRFsY3ucEUYsrQ_$$84zT0hdcEuZaKH7lHzr_W",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "1oeyORKK7vPJ51IZtFvDl$$ceqDOplUY77EElWMKVKmR",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
+    "SUg_5Lp0LOwAjptLLLtsP$$yxJRi1aqfa4pZAK6d3-FB" : {
+      "id" : "SUg_5Lp0LOwAjptLLLtsP$$yxJRi1aqfa4pZAK6d3-FB",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "HcstWL2fvDpnZICDucg57$$R7LhtH2cGf6s6AAVbB7F4",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10222/datasets/customer_data_json"
+      }
+    },
     "N3h15p6RQTmoOBHVwL0-k$$URnFZ27_UJyIWdt8VC-fG" : {
       "id" : "N3h15p6RQTmoOBHVwL0-k$$URnFZ27_UJyIWdt8VC-fG",
       "component" : "Limit",
