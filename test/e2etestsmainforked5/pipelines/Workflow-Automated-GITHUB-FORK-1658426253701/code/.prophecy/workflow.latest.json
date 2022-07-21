@@ -75,6 +75,63 @@
     "targetPort" : "ENlqkPU6C3kific5TQhki$$AMw8l6ZU7J9_t6kefOcKX"
   } ],
   "processes" : {
+    "K9dJEmr9xgVGHJpuQ0TNH$$-URTnGALtovXaUGIvl9C9" : {
+      "id" : "K9dJEmr9xgVGHJpuQ0TNH$$-URTnGALtovXaUGIvl9C9",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "qdSnAm9vlfbWBAVosIhln$$7mMo5fjIiuoxRtNWdsNaT",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10222/datasets/customer_data_parquet"
+      }
+    },
+    "tuS3PRDVmwmjhgpo-t9F_$$CQ1ziBgEmwjlBD5djO_bV" : {
+      "id" : "tuS3PRDVmwmjhgpo-t9F_$$CQ1ziBgEmwjlBD5djO_bV",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "-_wKammP_wke4NnFKbbta$$KgOrQ5sc0jSB9JUw_Mu8R",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "jrwyiL-diUkb-9x6USrpE$$-VNAFawlof9IA6WpHcSTT",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "WfihwLKl_M86pxBOwhjvL$$QbvzX80BviH12RmByHBsD" : {
       "id" : "WfihwLKl_M86pxBOwhjvL$$QbvzX80BviH12RmByHBsD",
       "component" : "Source",
