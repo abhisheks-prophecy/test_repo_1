@@ -5,7 +5,6 @@
     "fabricId" : "862",
     "frontEndLanguage" : "sql",
     "mode" : "batch",
-    "interimMode" : "Full",
     "udfs" : {
       "language" : "python",
       "udfs" : [ ]
@@ -20,7 +19,39 @@
         "fields" : [ ]
       },
       "fabrics" : {
+        "fabricAdvancedJson" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "jobSize-databricksBasic.New" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "dev_ebs_ssd" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "livy" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "sharedFabric" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "ebs_ssd" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
         "dev" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "captain_livy" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "dev_ebs_hdd" : {
           "type" : "record",
           "fields" : [ ]
         },
@@ -28,7 +59,7 @@
           "type" : "record",
           "fields" : [ ]
         },
-        "livy" : {
+        "another-AdvSharedFabric" : {
           "type" : "record",
           "fields" : [ ]
         }
@@ -38,7 +69,15 @@
     "hadoopConf" : [ ],
     "codeMode" : "sparse",
     "buildSystem" : "maven",
-    "externalDependencies" : [ ]
+    "externalDependencies" : [ ],
+    "isImported" : false,
+    "interimMode" : "Full",
+    "interimModeEnabled" : true,
+    "visualCodeInterimMode" : "Disabled",
+    "recordsLimit" : {
+      "enabled" : false,
+      "value" : 1000
+    }
   },
   "connections" : [ {
     "id" : "zoiDGe4aqjI7HAu_4EOoM",
@@ -77,7 +116,8 @@
         "language" : "python",
         "phase" : 0,
         "cache" : false,
-        "detailedStats" : false
+        "detailedStats" : false,
+        "isImported" : false
       },
       "ports" : {
         "inputs" : [ {
@@ -88,7 +128,8 @@
           "id" : "eWa3bRdeaWIcdIMlyBYMy$$eFLfs99Pa7y59WcXX5BOG",
           "slug" : "out"
         } ],
-        "selectedInputFields" : [ ]
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
       },
       "properties" : {
         "columnsSelector" : [ ],
@@ -106,7 +147,8 @@
         "language" : "python",
         "phase" : 0,
         "cache" : false,
-        "detailedStats" : false
+        "detailedStats" : false,
+        "isImported" : false
       },
       "ports" : {
         "inputs" : [ {
@@ -117,7 +159,8 @@
           "id" : "4uZdF27D_KOYVNwq8NaIW$$IbpM-Uutc_nu7DtWo-rch",
           "slug" : "out"
         } ],
-        "selectedInputFields" : [ ]
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
       },
       "properties" : {
         "columnsSelector" : [ "1_o_Rg7f3jfOKn5Uq3Nlt$$J8vTZZIGD1BkrwrTAOTiK##order_category", "1_o_Rg7f3jfOKn5Uq3Nlt$$J8vTZZIGD1BkrwrTAOTiK##order_date", "1_o_Rg7f3jfOKn5Uq3Nlt$$J8vTZZIGD1BkrwrTAOTiK##customer_id", "1_o_Rg7f3jfOKn5Uq3Nlt$$J8vTZZIGD1BkrwrTAOTiK##amount", "1_o_Rg7f3jfOKn5Uq3Nlt$$J8vTZZIGD1BkrwrTAOTiK##order_status", "1_o_Rg7f3jfOKn5Uq3Nlt$$J8vTZZIGD1BkrwrTAOTiK##order_id" ],
@@ -166,12 +209,13 @@
       "metadata" : {
         "label" : "Source_0",
         "slug" : "Source_0",
-        "x" : 414,
-        "y" : 66,
+        "x" : 272,
+        "y" : -131,
         "language" : "python",
         "phase" : 0,
         "cache" : false,
-        "detailedStats" : false
+        "detailedStats" : false,
+        "isImported" : false
       },
       "ports" : {
         "inputs" : [ ],
@@ -179,7 +223,8 @@
           "id" : "vB9i4KW0RCmmh1QzqZrbB$$X9pR2KUYSnq1ZrrBl3K8B",
           "slug" : "out"
         } ],
-        "selectedInputFields" : [ ]
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
       },
       "properties" : {
         "datasetId" : "4518/datasets/orders"
@@ -196,7 +241,8 @@
         "language" : "python",
         "phase" : 0,
         "cache" : false,
-        "detailedStats" : false
+        "detailedStats" : false,
+        "isImported" : false
       },
       "ports" : {
         "inputs" : [ {
@@ -207,7 +253,8 @@
           "id" : "UU5VkRnJurNihucdSM5q9$$iHzFMkML21njM9q72ZOO_",
           "slug" : "out"
         } ],
-        "selectedInputFields" : [ ]
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
       },
       "properties" : {
         "columnsSelector" : [ "9ag4evCiyy2pZN25TWLd8$$xB7A6vyTNDitKL5dPLb8I##order_id" ],
@@ -223,12 +270,13 @@
       "metadata" : {
         "label" : "OrderBy_2",
         "slug" : "OrderBy_2",
-        "x" : 1084.0000000000002,
-        "y" : -11.74999999999994,
+        "x" : 1226.0000000000002,
+        "y" : -76.74999999999994,
         "language" : "python",
         "phase" : 0,
         "cache" : false,
-        "detailedStats" : false
+        "detailedStats" : false,
+        "isImported" : false
       },
       "ports" : {
         "inputs" : [ {
@@ -239,10 +287,11 @@
           "id" : "rggfwpW8MxpjuP_A2QHlb$$KnTmGGIdSP1TDrNF2StWs",
           "slug" : "out"
         } ],
-        "selectedInputFields" : [ ]
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
       },
       "properties" : {
-        "columnsSelector" : [ "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_date", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##customer_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##amount", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_category", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_status" ],
+        "columnsSelector" : [ "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_status", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##customer_id", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_date", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##order_category", "jIErjJhR1SZOvkyNU9jaV$$r4xE4tsh8hCbRA9wHrSGu##amount" ],
         "orders" : [ {
           "expression" : {
             "format" : "sql",
@@ -286,6 +335,7 @@
   "ports" : {
     "inputs" : [ ],
     "outputs" : [ ],
-    "selectedInputFields" : [ ]
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false
   }
 }
