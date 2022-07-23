@@ -75,6 +75,33 @@
     "targetPort" : "ZqI5k2Bx4kEkWduuoOgKG$$3AcQTzoeVF4xbM5345q3s"
   } ],
   "processes" : {
+    "OlMtzDf85ErV4DfJR2c7b$$vq2BO16uE0rlsHORnu2U5" : {
+      "id" : "OlMtzDf85ErV4DfJR2c7b$$vq2BO16uE0rlsHORnu2U5",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "language" : "python",
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "kLPKmilvbqw72vLw3xB9L$$HY5Z7Yj78r20zMp_GRW9l",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "8868/datasets/customer_data_json"
+      }
+    },
     "jtvbofEBWrafFenUI_o-F$$p2OJOpx4MYqYEwGX-JQqZ" : {
       "id" : "jtvbofEBWrafFenUI_o-F$$p2OJOpx4MYqYEwGX-JQqZ",
       "component" : "Limit",
