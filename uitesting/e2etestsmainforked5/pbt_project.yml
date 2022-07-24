@@ -15,8 +15,16 @@ pipelines:
     datasets:
       inputs:
       - 8906/datasets/customer_data_json
+      - 4694/datasets/customer_data_parquet
       outputs: []
-    dependencies: {}
+    dependencies:
+      project/4694:
+        name: project/4694
+        projectUID: 4694
+        projectName: python_project
+        version: python_project/0.2
+        author: null
+        createdAt: '2022-07-24 22:52:03'
   pipelines/Workflow-Automated-GITHUB-FORK-1657061781368:
     name: Workflow-Automated-GITHUB-FORK-1657061781368
     description: automation workflow
