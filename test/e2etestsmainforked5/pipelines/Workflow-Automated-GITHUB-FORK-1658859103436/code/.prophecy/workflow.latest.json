@@ -92,6 +92,37 @@
         "limit" : "10"
       }
     },
+    "UtPcGOZCaB9v4ATXLEqLJ$$ci1Hw3JOvnl9pi2rKaXUl" : {
+      "id" : "UtPcGOZCaB9v4ATXLEqLJ$$ci1Hw3JOvnl9pi2rKaXUl",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "WIzAUPhP4dk_1uPIL9HDo$$ujFeV5rZM4qqnRhVE_fkx",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "hwEt7y-8MxwWb2ZMl6nwT$$1Ms0n09KK-S_V8ugYUJPM",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "DbqlgQGIP-vyLFHyQpGEM$$EGvT0ROvHHWsdEFRvQ_rw" : {
       "id" : "DbqlgQGIP-vyLFHyQpGEM$$EGvT0ROvHHWsdEFRvQ_rw",
       "component" : "Source",
@@ -116,6 +147,32 @@
       },
       "properties" : {
         "datasetId" : "10754/datasets/customer_data_json"
+      }
+    },
+    "rRCPY3I6raTKM1Q996llK$$nzSYSlA4bZEP2pJ09UM9m" : {
+      "id" : "rRCPY3I6raTKM1Q996llK$$nzSYSlA4bZEP2pJ09UM9m",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "dOWBjGmzl3lConkqJ6t7K$$PKShhfyVME-n-Igd5bcNh",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "5689/datasets/customer_data_parquet"
       }
     }
   },
