@@ -92,6 +92,32 @@
         "limit" : "10"
       }
     },
+    "F2NdH-g_79qmH41xYeNht$$dCao95nQe3Ze0AVvrHhbj" : {
+      "id" : "F2NdH-g_79qmH41xYeNht$$dCao95nQe3Ze0AVvrHhbj",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "WlCEeBqeRNILYjAZ3BuQu$$F278x6VMZ0VbfmyrCab_g",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10754/datasets/customer_data_json"
+      }
+    },
     "DbqlgQGIP-vyLFHyQpGEM$$EGvT0ROvHHWsdEFRvQ_rw" : {
       "id" : "DbqlgQGIP-vyLFHyQpGEM$$EGvT0ROvHHWsdEFRvQ_rw",
       "component" : "Source",
@@ -116,6 +142,37 @@
       },
       "properties" : {
         "datasetId" : "10754/datasets/customer_data_json"
+      }
+    },
+    "TaNdgCMVGXYWr3_DJfpYZ$$E7JPOEAe8t5i5D7yEMO1g" : {
+      "id" : "TaNdgCMVGXYWr3_DJfpYZ$$E7JPOEAe8t5i5D7yEMO1g",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "HpqlrfJAHyyd-YPKTtFbD$$8ZxUoGPMylupH2YTg_h4P",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "TVTsthl-UfgxJxvSEMsjF$$hkoSDCAC5RXyHiI6If9Rp",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
       }
     }
   },
