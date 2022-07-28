@@ -64,6 +64,32 @@
     "targetPort" : "saMRXBMo16xbU6gLcgm8l$$f9Uuo9RwQ3CT6paQLXPK7"
   } ],
   "processes" : {
+    "HBV-rZY7ZTTnlQB1XeScL$$72ypzvQRTM0DBL8w_KDAT" : {
+      "id" : "HBV-rZY7ZTTnlQB1XeScL$$72ypzvQRTM0DBL8w_KDAT",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "cj10rlE6NV87uFZyQoVGl$$CRWVPfHlHdE9xe7mNRgid",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10926/datasets/customer_data_json"
+      }
+    },
     "2SuLLAin17Vk4Wjz6Hfgi$$L_CRdXNCy50QjT7Kd0DIm" : {
       "id" : "2SuLLAin17Vk4Wjz6Hfgi$$L_CRdXNCy50QjT7Kd0DIm",
       "component" : "Source",
