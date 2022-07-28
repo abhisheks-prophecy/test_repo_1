@@ -105,6 +105,32 @@
         "limit" : "10"
       }
     },
+    "qkAMJbOxj78F82cPDDC-V$$pYLk1jyZg0cWxqo_0xPK8" : {
+      "id" : "qkAMJbOxj78F82cPDDC-V$$pYLk1jyZg0cWxqo_0xPK8",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "PI5Uq-PkwQ5syIQI3gqUd$$ZDiEI1tTnqQeNirnHmPNQ",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9018/datasets/customer_data_json"
+      }
+    },
     "nRJdUlqAPsIeUEIAdgSuQ$$jCgY3zLDSZ9V8lb1MDlV4" : {
       "id" : "nRJdUlqAPsIeUEIAdgSuQ$$jCgY3zLDSZ9V8lb1MDlV4",
       "component" : "Source",
