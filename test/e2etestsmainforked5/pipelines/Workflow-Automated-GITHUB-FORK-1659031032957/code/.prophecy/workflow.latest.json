@@ -64,6 +64,32 @@
     "targetPort" : "utG7IANee1n7Tjfa5Uo_g$$ZLivuVoIbklXCIAHniq5H"
   } ],
   "processes" : {
+    "-iEddCP47fHrmiQbUNl2N$$JTW7LJdpgN7vqbwT8AMD4" : {
+      "id" : "-iEddCP47fHrmiQbUNl2N$$JTW7LJdpgN7vqbwT8AMD4",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "WlL4q3ZXpZDNQ1c_IjsLy$$dVnegYJ2uhg2LU_0EsVRi",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10925/datasets/customer_data_json"
+      }
+    },
     "bQz7J8_v9Y3TFL_xkduQi$$frtzF5DIh4Il_BGY1uMdj" : {
       "id" : "bQz7J8_v9Y3TFL_xkduQi$$frtzF5DIh4Il_BGY1uMdj",
       "component" : "Limit",
