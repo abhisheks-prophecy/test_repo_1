@@ -1,0 +1,155 @@
+{
+  "metainfo" : {
+    "id" : "1",
+    "language" : "python",
+    "fabricId" : "674",
+    "frontEndLanguage" : "sql",
+    "mode" : "batch",
+    "udfs" : {
+      "language" : "python",
+      "udfs" : [ ]
+    },
+    "udafs" : {
+      "language" : "python",
+      "code" : ""
+    },
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      },
+      "fabrics" : {
+        "devnew" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "dev" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "TEST-Automated_Livy.1" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "captain_livy" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
+        "TEST-Automated_Databricks.1" : {
+          "type" : "record",
+          "fields" : [ ]
+        }
+      }
+    },
+    "sparkConf" : [ ],
+    "hadoopConf" : [ ],
+    "codeMode" : "sparse",
+    "buildSystem" : "maven",
+    "externalDependencies" : [ ],
+    "isImported" : false,
+    "interimMode" : "Full",
+    "interimModeEnabled" : true,
+    "visualCodeInterimMode" : "Disabled",
+    "recordsLimit" : {
+      "enabled" : false,
+      "value" : 1000
+    },
+    "topLevelPackage" : "workflowautomatedgithubfork"
+  },
+  "connections" : [ {
+    "id" : "WIpto_VkFY2Uxt-z4X40e",
+    "source" : "I5IR6OVyuymjrQNQvvFjS$$x5EUiHjqwohuQA0oqlHfE",
+    "sourcePort" : "uY51gVJ6ZAbxkEQIcYR7l$$OSaIPfIQovykNn09EZV-b",
+    "target" : "bQz7J8_v9Y3TFL_xkduQi$$frtzF5DIh4Il_BGY1uMdj",
+    "targetPort" : "utG7IANee1n7Tjfa5Uo_g$$ZLivuVoIbklXCIAHniq5H"
+  } ],
+  "processes" : {
+    "-iEddCP47fHrmiQbUNl2N$$JTW7LJdpgN7vqbwT8AMD4" : {
+      "id" : "-iEddCP47fHrmiQbUNl2N$$JTW7LJdpgN7vqbwT8AMD4",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "WlL4q3ZXpZDNQ1c_IjsLy$$dVnegYJ2uhg2LU_0EsVRi",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10925/datasets/customer_data_json"
+      }
+    },
+    "bQz7J8_v9Y3TFL_xkduQi$$frtzF5DIh4Il_BGY1uMdj" : {
+      "id" : "bQz7J8_v9Y3TFL_xkduQi$$frtzF5DIh4Il_BGY1uMdj",
+      "component" : "Limit",
+      "metadata" : {
+        "label" : "Limit_1",
+        "slug" : "Limit_1",
+        "x" : 280,
+        "y" : 160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "utG7IANee1n7Tjfa5Uo_g$$ZLivuVoIbklXCIAHniq5H",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "H-fi7eg51wmxp4ZR0Vs3F$$tALh47nB3bmyEoGbp7LPq",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "limit" : "10"
+      }
+    },
+    "I5IR6OVyuymjrQNQvvFjS$$x5EUiHjqwohuQA0oqlHfE" : {
+      "id" : "I5IR6OVyuymjrQNQvvFjS$$x5EUiHjqwohuQA0oqlHfE",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json",
+        "slug" : "customer_data_json",
+        "x" : 140,
+        "y" : 160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "uY51gVJ6ZAbxkEQIcYR7l$$OSaIPfIQovykNn09EZV-b",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "10925/datasets/customer_data_json"
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ ],
+    "outputs" : [ ],
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false
+  }
+}
