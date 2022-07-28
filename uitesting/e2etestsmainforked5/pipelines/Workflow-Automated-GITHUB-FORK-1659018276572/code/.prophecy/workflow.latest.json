@@ -72,6 +72,37 @@
     "targetPort" : "I_vHK10_9mEmrmeQIQibS$$Zyor4RuJJuGjdQtsonhB2"
   } ],
   "processes" : {
+    "rOkZ4dyLkBQ-AZn669WO5$$uhD6h70yrGCqeFzcMDfGf" : {
+      "id" : "rOkZ4dyLkBQ-AZn669WO5$$uhD6h70yrGCqeFzcMDfGf",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "MP6AFm0zrDJdQWXHhX5pL$$_psopbUNOJM2-C5QDiakO",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "6qIpr_oAFR4e3xQwGfq7O$$YpTBE7JRss1_0Sgag24uT",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "mHcgONwgNeW1bvwvYxBcX$$5T6QpJBmxYWX0v6EFUCmG" : {
       "id" : "mHcgONwgNeW1bvwvYxBcX$$5T6QpJBmxYWX0v6EFUCmG",
       "component" : "Source",
@@ -96,6 +127,32 @@
       },
       "properties" : {
         "datasetId" : "9041/datasets/customer_data_json"
+      }
+    },
+    "gchNTjbWqMC7mMAEOdekJ$$b3xqn7goUID9_JWrd1huA" : {
+      "id" : "gchNTjbWqMC7mMAEOdekJ$$b3xqn7goUID9_JWrd1huA",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_parquet",
+        "slug" : "customer_data_parquet",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "OlGKWRkj7-BKm_nMZZvps$$FrMcxcTkddX4Z3axLOWtK",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "4694/datasets/customer_data_parquet"
       }
     },
     "iOoUWnhLjLOWkS7TtHvxO$$a5uIoN8Wy0rMxaf0A7e0A" : {
