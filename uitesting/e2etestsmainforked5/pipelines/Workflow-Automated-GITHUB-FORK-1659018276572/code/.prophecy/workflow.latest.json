@@ -98,6 +98,37 @@
         "datasetId" : "9041/datasets/customer_data_json"
       }
     },
+    "Nv92IaG3GcfUKvZ9f2xgF$$dxG7epGAHUHrDJrnRN53T" : {
+      "id" : "Nv92IaG3GcfUKvZ9f2xgF$$dxG7epGAHUHrDJrnRN53T",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_1",
+        "slug" : "Script_1",
+        "x" : -261.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "EzAWhGYkL6sc7u6XiTCYw$$5EMvTyxI7vxHLHcahNSo6",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ {
+          "id" : "NsKxAG5dQcL4MSsXlWPEb$$bdg3QX3cHacoBW7V47elA",
+          "slug" : "out0"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "script" : "",
+        "scriptMethodHeader" : "def Script(spark: SparkSession, in: DataFrame) -> Script:",
+        "scriptMethodFooter" : "    return out0"
+      }
+    },
     "iOoUWnhLjLOWkS7TtHvxO$$a5uIoN8Wy0rMxaf0A7e0A" : {
       "id" : "iOoUWnhLjLOWkS7TtHvxO$$a5uIoN8Wy0rMxaf0A7e0A",
       "component" : "Limit",
@@ -125,6 +156,32 @@
       },
       "properties" : {
         "limit" : "10"
+      }
+    },
+    "YL7RQvxpqrkv5wK-CLbV4$$3JqnYiCCSvt2DANoj_yX2" : {
+      "id" : "YL7RQvxpqrkv5wK-CLbV4$$3JqnYiCCSvt2DANoj_yX2",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_data_json_1",
+        "slug" : "customer_data_json_1",
+        "x" : -401.9999999999999,
+        "y" : -85.19999999999996,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "1WApABty9ZWlJqztIsabx$$gtRmjBltnBJshg8gRDhsX",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "9041/datasets/customer_data_json"
       }
     }
   },
