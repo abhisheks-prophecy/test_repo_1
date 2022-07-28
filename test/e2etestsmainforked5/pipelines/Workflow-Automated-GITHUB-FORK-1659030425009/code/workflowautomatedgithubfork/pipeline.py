@@ -9,6 +9,7 @@ from workflowautomatedgithubfork.graph import *
 def pipeline(spark: SparkSession) -> None:
     df_customer_data_json = customer_data_json(spark)
     df_Limit_1 = Limit_1(spark, df_customer_data_json)
+    df_customer_data_json_1 = customer_data_json_1(spark)
 
 def main():
     spark = SparkSession.builder\
